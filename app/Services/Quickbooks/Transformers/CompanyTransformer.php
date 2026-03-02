@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Invoice Ninja (https://invoiceninja.com).
+ * Red Invoice (https://redinvoice.com).
  *
  * @link https://github.com/invoiceninja/invoiceninja source repository
  *
- * @copyright Copyright (c) 2025. Invoice Ninja LLC (https://invoiceninja.com)
+ * @copyright Copyright (c) 2025. The Red Sun
  *
  * @license https://www.elastic.co/licensing/elastic-license
  */
@@ -13,7 +13,7 @@
 namespace App\Services\Quickbooks\Transformers;
 
 /**
- * Transforms QuickBooks IPPCompanyInfo into Invoice Ninja company data.
+ * Transforms QuickBooks IPPCompanyInfo into Red Invoice company data.
  *
  * QB fields: CompanyName, LegalName, CompanyAddr, LegalAddr, CustomerCommunicationAddr,
  * Email, CustomerCommunicationEmailAddr, PrimaryPhone, WebAddr, CompanyURL,

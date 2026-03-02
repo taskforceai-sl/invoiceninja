@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Invoice Ninja (https://invoiceninja.com).
+ * Red Invoice (https://redinvoice.com).
  *
  * @link https://github.com/invoiceninja/invoiceninja source repository
  *
- * @copyright Copyright (c) 2025. Invoice Ninja LLC (https://invoiceninja.com)
+ * @copyright Copyright (c) 2025. The Red Sun
  *
  * @license https://www.elastic.co/licensing/elastic-license
  */
@@ -51,7 +51,7 @@ class FDSReview implements ShouldQueue
 
         $invoices_string = \implode(', ', collect($this->payment_hash->invoices())->pluck('invoice_number')->toArray()) ?: '';
 
-        $body = "Transaction {$this->transaction_reference} has been held for your review in Auth.net based on your Fraud Detection Settings.\n\n\nWe have marked invoices {$invoices_string} as paid in Invoice Ninja.\n\n\nPlease review this transaction in your auth.net account, and authorize if correct to ensure the transaction is finalized as expected.\n\n\nIf these charges need to be cancelled, you will need to delete the payments that have been created in Invoice Ninja.";
+        $body = "Transaction {$this->transaction_reference} has been held for your review in Auth.net based on your Fraud Detection Settings.\n\n\nWe have marked invoices {$invoices_string} as paid in Red Invoice.\n\n\nPlease review this transaction in your auth.net account, and authorize if correct to ensure the transaction is finalized as expected.\n\n\nIf these charges need to be cancelled, you will need to delete the payments that have been created in Red Invoice.";
 
         $mo = new EmailObject();
         $mo->subject = "Transaction {$this->transaction_reference} held for review by auth.net";

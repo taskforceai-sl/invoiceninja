@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Invoice Ninja (https://invoiceninja.com).
+ * Red Invoice (https://redinvoice.com).
  *
  * @link https://github.com/invoiceninja/invoiceninja source repository
  *
- * @copyright Copyright (c) 2025. Invoice Ninja LLC (https://invoiceninja.com)
+ * @copyright Copyright (c) 2025. The Red Sun
  *
  * @license https://www.elastic.co/licensing/elastic-license
  */
@@ -587,7 +587,7 @@ class SquarePaymentDriver extends BaseDriver
         $body->setEmailAddress($this->client->present()->email());
         $body->setAddress($billing_address);
         $body->setReferenceId($this->client->number);
-        $body->setNote('Created by Invoice Ninja.');
+        $body->setNote('Created by Red Invoice.');
 
         $api_response = $this->init()
                              ->square

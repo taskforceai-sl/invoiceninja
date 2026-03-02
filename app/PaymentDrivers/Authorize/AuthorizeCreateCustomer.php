@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Invoice Ninja (https://invoiceninja.com).
+ * Red Invoice (https://redinvoice.com).
  *
  * @link https://github.com/invoiceninja/invoiceninja source repository
  *
- * @copyright Copyright (c) 2025. Invoice Ninja LLC (https://invoiceninja.com)
+ * @copyright Copyright (c) 2025. The Red Sun
  *
  * @license https://www.elastic.co/licensing/elastic-license
  */
@@ -114,7 +114,7 @@ class AuthorizeCreateCustomer
         return $response;
     }
 
-    // This is how we can harvest client profiles and attach them within Invoice Ninja
+    // This is how we can harvest client profiles and attach them within Red Invoice
     // $request = new net\authorize\api\contract\v1\GetCustomerProfileRequest();
     // $request->setMerchantAuthentication($driver->merchant_authentication);
     // $request->setCustomerProfileId($gateway_customer_reference);

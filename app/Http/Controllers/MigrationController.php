@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Invoice Ninja (https://invoiceninja.com).
+ * Red Invoice (https://redinvoice.com).
  *
  * @link https://github.com/invoiceninja/invoiceninja source repository
  *
- * @copyright Copyright (c) 2025. Invoice Ninja LLC (https://invoiceninja.com)
+ * @copyright Copyright (c) 2025. The Red Sun
  *
  * @license https://www.elastic.co/licensing/elastic-license
  */
@@ -220,8 +220,8 @@ class MigrationController extends BaseController
      *      path="/api/v1/migration/start",
      *      operationId="postStartMigration",
      *      tags={"migration"},
-     *      summary="Starts the migration from previous version of Invoice Ninja",
-     *      description="Starts the migration from previous version of Invoice Ninja",
+     *      summary="Starts the migration from previous version of Red Invoice",
+     *      description="Starts the migration from previous version of Red Invoice",
      *      @OA\Parameter(ref="#/components/parameters/X-API-TOKEN"),
      *      @OA\Parameter(ref="#/components/parameters/X-Requested-With"),
      *      @OA\Parameter(ref="#/components/parameters/X-API-PASSWORD"),

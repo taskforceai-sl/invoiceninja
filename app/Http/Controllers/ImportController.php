@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Invoice Ninja (https://invoiceninja.com).
+ * Red Invoice (https://redinvoice.com).
  *
  * @link https://github.com/invoiceninja/invoiceninja source repository
  *
- * @copyright Copyright (c) 2025. Invoice Ninja LLC (https://invoiceninja.com)
+ * @copyright Copyright (c) 2025. The Red Sun
  *
  * @license https://www.elastic.co/licensing/elastic-license
  */
@@ -454,12 +454,12 @@ class ImportController extends Controller
         if (count($data) > 0) {
             $headers = $data[0];
 
-            // Remove Invoice Ninja headers
+            // Remove Red Invoice headers
             if (is_array($headers) && count($headers) > 0 && count($data) > 4) {
                 $firstCell = $headers[0];
 
                 if (strstr($firstCell, (string) config('ninja.app_name'))) {
-                    array_shift($data); // Invoice Ninja...
+                    array_shift($data); // Red Invoice...
                     array_shift($data); // <blank line>
                     array_shift($data); // Entity Type Header
                 }
