@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Invoice Ninja (https://invoiceninja.com).
+ * Red Invoice (https://invoice.theredsun.org).
  *
  * @link https://github.com/invoiceninja/invoiceninja source repository
  *
- * @copyright Copyright (c) 2025. Invoice Ninja LLC (https://invoiceninja.com)
+ * @copyright Copyright (c) 2025. The Red Sun
  *
  * @license https://www.elastic.co/licensing/elastic-license
  */
@@ -129,7 +129,7 @@ class SquareWebhook implements ShouldQueue
             return $payment;
         }
 
-        /** Handles the edge case where for some reason the payment has not yet been recorded in Invoice Ninja */
+        /** Handles the edge case where for some reason the payment has not yet been recorded in Red Invoice */
         $apiResponse = $this->square->getPaymentsApi()->getPayment($payment_reference);
 
         nlog("searching square for payment");

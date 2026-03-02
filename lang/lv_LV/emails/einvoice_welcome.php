@@ -84,7 +84,7 @@ Nepieciešama Palīdzība?
 
 Mūsu atbalsta komanda ir gatava palīdzēt ar jebkuriem jautājumiem par e-rēķinu prasībām vai iestatīšanu.
 
-Sazinieties ar atbalsta dienestu: contact@invoiceninja.com
+Sazinieties ar atbalsta dienestu: contact@invoice.theredsun.org
 
 Paldies, ka izvēlējāties mūsu e-rēķinu pakalpojumu.
     "

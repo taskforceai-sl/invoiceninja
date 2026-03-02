@@ -84,7 +84,7 @@ Yardıma mı İhtiyacınız Var?
 
 Destek ekibimiz, e-fatura gereksinimleri veya kurulumu ile ilgili her türlü sorunuzda yardıma hazırdır.
 
-Destek ile iletişime geçin: contact@invoiceninja.com
+Destek ile iletişime geçin: contact@invoice.theredsun.org
 
 E-fatura hizmetimizi seçtiğiniz için teşekkür ederiz.
     "

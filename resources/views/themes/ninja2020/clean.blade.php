@@ -39,7 +39,7 @@
 
         <!-- Title -->
         @auth('contact')
-            <title>@yield('meta_title', '') — {{ auth()->guard('contact')->user()->user->account->isPaid() ? auth()->guard('contact')->user()->company->present()->name() : 'Invoice Ninja' }}</title>
+            <title>@yield('meta_title', '') — {{ auth()->guard('contact')->user()->user->account->isPaid() ? auth()->guard('contact')->user()->company->present()->name() : 'Red Invoice' }}</title>
         @endauth
 
         @guest
@@ -115,7 +115,7 @@
                 window.cookieconsent.initialise({
                     "palette": {
                         "popup": {
-                            "background": "#000"
+                            "background": "#240000"
                         },
                         "button": {
                             "background": "#f1d600"

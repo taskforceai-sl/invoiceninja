@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Invoice Ninja (https://invoiceninja.com).
+ * Red Invoice (https://invoice.theredsun.org).
  *
  * @link https://github.com/invoiceninja/invoiceninja source repository
  *
- * @copyright Copyright (c) 2025. Invoice Ninja LLC (https://invoiceninja.com)
+ * @copyright Copyright (c) 2025. The Red Sun
  *
  * @license https://www.elastic.co/licensing/elastic-license
  */
@@ -54,7 +54,7 @@ use Symfony\Component\Console\Input\InputOption;
 WARNING: Please backup your database before running this script
 ##################################################################
 
-If you have any questions please email us at contact@invoiceninja.com
+If you have any questions please email us at contact@invoice.theredsun.org
 
 Usage:
 

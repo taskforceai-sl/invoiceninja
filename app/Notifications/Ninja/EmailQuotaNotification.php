@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Invoice Ninja (https://invoiceninja.com).
+ * Red Invoice (https://invoice.theredsun.org).
  *
  * @link https://github.com/invoiceninja/invoiceninja source repository
  *
- * @copyright Copyright (c) 2025. Invoice Ninja LLC (https://invoiceninja.com)
+ * @copyright Copyright (c) 2025. The Red Sun
  *
  * @license https://www.elastic.co/licensing/elastic-license
  */
@@ -76,7 +76,7 @@ class EmailQuotaNotification extends Notification
         return (new SlackMessage())
                 ->success()
                 ->from(ctrans('texts.notification_bot'))
-                ->image('https://app.invoiceninja.com/favicon.png')
+                ->image('https://app.invoice.theredsun.org/favicon.png')
                 ->content($content);
     }
 }

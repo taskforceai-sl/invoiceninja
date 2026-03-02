@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Invoice Ninja (https://invoiceninja.com).
+ * Red Invoice (https://invoice.theredsun.org).
  *
  * @link https://github.com/invoiceninja/invoiceninja source repository
  *
- * @copyright Copyright (c) 2025. Invoice Ninja LLC (https://invoiceninja.com)
+ * @copyright Copyright (c) 2025. The Red Sun
  *
  * @license https://www.elastic.co/licensing/elastic-license
  */
@@ -133,7 +133,7 @@ trait MakesTemplateData
         $data['$address2'] = ['value' => 'Kalamazoo', 'label' => ctrans('texts.address2')];
         $data['$id_number'] = ['value' => 'ID Number', 'label' => ctrans('texts.id_number')];
         $data['$vat_number'] = ['value' => '555-434-324', 'label' => ctrans('texts.vat_number')];
-        $data['$website'] = ['value' => 'https://www.invoiceninja.com', 'label' => ctrans('texts.website')];
+        $data['$website'] = ['value' => 'https://www.invoice.theredsun.org', 'label' => ctrans('texts.website')];
         $data['$phone'] = ['value' => '555-12321', 'label' => ctrans('texts.phone')];
         $data['$country'] = ['value' => 'USA', 'label' => ctrans('texts.country')];
         $data['$email'] = ['value' => 'user@example.com', 'label' => ctrans('texts.email')];
@@ -177,7 +177,7 @@ trait MakesTemplateData
         $data['$company.email'] = ['value' => 'user@example.com', 'label' => ctrans('texts.email')];
         $data['$company.vat_number'] = ['value' => 'VAT-3344-223', 'label' => ctrans('texts.vat_number')];
         $data['$company.id_number'] = ['value' => 'ID-NO-#434', 'label' => ctrans('texts.id_number')];
-        $data['$company.website'] = ['value' => 'https://invoiceninja.com', 'label' => ctrans('texts.website')];
+        $data['$company.website'] = ['value' => 'https://invoice.theredsun.org', 'label' => ctrans('texts.website')];
         $data['$company.address'] = ['value' => '5 Kalamazoo Way\n Jimbuckeroo\n USA 90210', 'label' => ctrans('texts.address')];
         $data['$company.logo'] = ['value' => "<img src='https://raw.githubusercontent.com/hillelcoren/invoice-ninja/master/public/images/round_logo.png' class='w-48' alt='logo'>", 'label' => ctrans('texts.logo')];
         $data['$company_logo'] = &$data['$company.logo'];

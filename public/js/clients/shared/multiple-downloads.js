@@ -4,11 +4,11 @@ var __webpack_exports__ = {};
   !*** ./resources/js/clients/shared/multiple-downloads.js ***!
   \***********************************************************/
 /**
- * Invoice Ninja (https://invoiceninja.com)
+ * Invoice Ninja (https://invoice.theredsun.org)
  *
  * @link https://github.com/invoiceninja/invoiceninja source repository
  *
- * @copyright Copyright (c) 2021. Invoice Ninja LLC (https://invoiceninja.com)
+ * @copyright Copyright (c) 2021. Invoice Ninja LLC (https://invoice.theredsun.org)
  *
  * @license https://www.elastic.co/licensing/elastic-license 
  */

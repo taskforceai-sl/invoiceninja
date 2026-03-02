@@ -17,7 +17,7 @@
       - lang: curl
         label: curl
         source: |
-          curl -X GET https://demo.invoiceninja.com/api/v1/payments \
+          curl -X GET https://demo.invoice.theredsun.org/api/v1/payments \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "X-Requested-With: XMLHttpRequest"
       parameters:
@@ -183,7 +183,7 @@
       - lang: curl
         label: curl
         source: |
-          curl -X GET https://demo.invoiceninja.com/api/v1/payments/D2J234DFA \
+          curl -X GET https://demo.invoice.theredsun.org/api/v1/payments/D2J234DFA \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "X-Requested-With: XMLHttpRequest"
       parameters:
@@ -283,7 +283,7 @@
       - lang: curl
         label: curl
         source: |
-          curl -X DELETE https://demo.invoiceninja.com/api/v1/payments/D2J234DFA \
+          curl -X DELETE https://demo.invoice.theredsun.org/api/v1/payments/D2J234DFA \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "X-Requested-With: XMLHttpRequest"
       parameters:

@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Invoice Ninja (https://invoiceninja.com).
+ * Red Invoice (https://invoice.theredsun.org).
  *
  * @link https://github.com/invoiceninja/invoiceninja source repository
  *
- * @copyright Copyright (c) 2025. Invoice Ninja LLC (https://invoiceninja.com)
+ * @copyright Copyright (c) 2025. The Red Sun
  *
  * @license https://www.elastic.co/licensing/elastic-license
  */
@@ -523,7 +523,7 @@ class LoginController extends BaseController
                 return $this->createNewAccount($new_account);
             }
 
-            return response()->json(['message' => 'User not found. If you believe this is an error, please send an email to contact@invoiceninja.com'], 400);
+            return response()->json(['message' => 'User not found. If you believe this is an error, please send an email to contact@invoice.theredsun.org'], 400);
         }
 
 
@@ -645,7 +645,7 @@ class LoginController extends BaseController
                 return $this->createNewAccount($new_account);
             }
 
-            return response()->json(['message' => 'User not found. If you believe this is an error, please send an email to contact@invoiceninja.com'], 400);
+            return response()->json(['message' => 'User not found. If you believe this is an error, please send an email to contact@invoice.theredsun.org'], 400);
         }
 
         return response()

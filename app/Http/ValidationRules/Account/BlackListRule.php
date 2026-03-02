@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Invoice Ninja (https://invoiceninja.com).
+ * Red Invoice (https://invoice.theredsun.org).
  *
  * @link https://github.com/invoiceninja/invoiceninja source repository
  *
- * @copyright Copyright (c) 2025. Invoice Ninja LLC (https://invoiceninja.com)
+ * @copyright Copyright (c) 2025. The Red Sun
  *1`
  * @license https://www.elastic.co/licensing/elastic-license
  */
@@ -4153,10 +4153,10 @@ class BlackListRule implements ValidationRule
         $parts = explode("@", $value);
 
         if (is_array($parts) && in_array($parts[1], $this->blacklist)) {
-            $fail('This domain is blacklisted, if you think this is in error, please email contact@invoiceninja.com');
+            $fail('This domain is blacklisted, if you think this is in error, please email contact@invoice.theredsun.org');
         }
         elseif(is_array($parts) && substr($parts[1], -4) === ".sbs") {
-            $fail('This domain is blacklisted, if you think this is in error, please email contact@invoiceninja.com');
+            $fail('This domain is blacklisted, if you think this is in error, please email contact@invoice.theredsun.org');
         }
     }
 

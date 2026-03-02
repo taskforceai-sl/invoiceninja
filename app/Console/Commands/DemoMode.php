@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Invoice Ninja (https://invoiceninja.com).
+ * Red Invoice (https://invoice.theredsun.org).
  *
  * @link https://github.com/invoiceninja/invoiceninja source repository
  *
- * @copyright Copyright (c) 2025. Invoice Ninja LLC (https://invoiceninja.com)
+ * @copyright Copyright (c) 2025. The Red Sun
  *
  * @license https://www.elastic.co/licensing/elastic-license
  */
@@ -174,11 +174,11 @@ class DemoMode extends Command
             'settings' => null,
         ]);
 
-        $u2 = User::where('email', 'demo@invoiceninja.com')->first();
+        $u2 = User::where('email', 'demo@invoice.theredsun.org')->first();
 
         if (! $u2) {
             $u2 = User::factory()->create([
-                'email'             => 'demo@invoiceninja.com',
+                'email'             => 'demo@invoice.theredsun.org',
                 'password'          => Hash::make('Password0'),
                 'account_id' => $account->id,
                 'confirmation_code' => $this->createDbHash(config('database.default')),

@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Invoice Ninja (https://invoiceninja.com).
+ * Red Invoice (https://invoice.theredsun.org).
  *
  * @link https://github.com/invoiceninja/invoiceninja source repository
  *
- * @copyright Copyright (c) 2025. Invoice Ninja LLC (https://invoiceninja.com)
+ * @copyright Copyright (c) 2025. The Red Sun
  *
  * @license https://www.elastic.co/licensing/elastic-license
  */
@@ -104,7 +104,7 @@ class Gateway extends StaticModel
         } elseif ($this->id == 59) {
             $link = 'https://www.forte.net/';
         } elseif ($this->id == 62) {
-            $link = 'https://docs.btcpayserver.org/InvoiceNinja/';
+            $link = 'https://docs.btcpayserver.org/RedInvoice/';
         } elseif ($this->id == 63) {
             $link = 'https://rotessa.com';
         } elseif ($this->id == 65) {

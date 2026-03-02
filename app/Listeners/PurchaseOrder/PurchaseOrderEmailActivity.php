@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Invoice Ninja (https://purchase_orderninja.com).
+ * Red Invoice (https://invoice.theredsun.org).
  *
  * @link https://github.com/purchase_orderninja/purchase_orderninja source repository
  *
- * @copyright Copyright (c) 2022. Invoice Ninja LLC (https://purchase_orderninja.com)
+ * @copyright Copyright (c) 2022. The Red Sun
  *
  * @license https://www.elastic.co/licensing/elastic-license
  */

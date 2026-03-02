@@ -84,7 +84,7 @@ Segítségre van szüksége?
 
 Támogató csapatunk készen áll segíteni bármilyen kérdésével az elektronikus számlázás követelményeivel vagy beállításával kapcsolatban.
 
-Vegye fel a kapcsolatot a támogatással: contact@invoiceninja.com
+Vegye fel a kapcsolatot a támogatással: contact@invoice.theredsun.org
 
 Köszönjük, hogy a mi elektronikus számlázó szolgáltatásunkat választotta.
     "

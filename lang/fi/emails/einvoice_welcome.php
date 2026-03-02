@@ -84,7 +84,7 @@ Tarvitsetko Apua?
 
 Tukitiimimme on valmiina auttamaan kaikissa verkkolaskutuksen vaatimuksiin tai asetuksiin liittyvissä kysymyksissä.
 
-Ota yhteyttä tukeen: contact@invoiceninja.com
+Ota yhteyttä tukeen: contact@invoice.theredsun.org
 
 Kiitos, että valitsit verkkolaskutuspalvelumme.
     "

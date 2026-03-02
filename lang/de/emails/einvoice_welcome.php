@@ -81,7 +81,7 @@ Benötigen Sie Hilfe?
 
 Unser Support-Team hilft Ihnen gerne bei Fragen zu E-Rechnungsanforderungen oder der Einrichtung.
 
-Kontaktieren Sie den Support: contact@invoiceninja.com
+Kontaktieren Sie den Support: contact@invoice.theredsun.org
 
 Vielen Dank, dass Sie sich für unseren E-Rechnungsservice entschieden haben.
     "

@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Invoice Ninja (https://invoiceninja.com).
+ * Red Invoice (https://invoice.theredsun.org).
  *
  * @link https://github.com/invoiceninja/invoiceninja source repository
  *
- * @copyright Copyright (c) 2025. Invoice Ninja LLC (https://invoiceninja.com)
+ * @copyright Copyright (c) 2025. The Red Sun
  *
  * @license https://www.elastic.co/licensing/elastic-license
  */
@@ -92,7 +92,7 @@ class ClientContactRequestCancellation extends Notification
                 ->success()
                 ->to('#devv2')
                 ->from('System')
-                ->image('https://app.invoiceninja.com/favicon.png')
+                ->image('https://app.invoice.theredsun.org/favicon.png')
                 ->content("Contact {$name} from client {$client_name} requested to cancel Recurring Invoice #{$recurring_invoice_number}");
     }
 

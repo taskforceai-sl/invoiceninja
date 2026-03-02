@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Invoice Ninja (https://invoiceninja.com).
+ * Invoice Ninja (https://invoice.theredsun.org).
  *
  * @link https://github.com/invoiceninja/invoiceninja source repository
  *
- * @copyright Copyright (c) 2021. Invoice Ninja LLC (https://invoiceninja.com)
+ * @copyright Copyright (c) 2021. Invoice Ninja LLC (https://invoice.theredsun.org)
  *
  * @license https://www.elastic.co/licensing/elastic-license
  */
@@ -34,7 +34,7 @@ class BlacklistValidationTest extends TestCase
         ];
 
         $data = [
-            'email' => 'contact@invoiceninja.com',
+            'email' => 'contact@invoice.theredsun.org',
         ];
 
         $v = $this->app['validator']->make($data, $rules);
@@ -49,7 +49,7 @@ class BlacklistValidationTest extends TestCase
         ];
 
         $data = [
-            'email' => 'noddy@invoiceninja.com',
+            'email' => 'noddy@invoice.theredsun.org',
         ];
 
         $v = $this->app['validator']->make($data, $rules);

@@ -2,14 +2,14 @@
 
 return [
 
-    'web_url' => 'https://www.invoiceninja.com',
+    'web_url' => 'https://www.invoice.theredsun.org',
     'admin_token' => env('NINJA_ADMIN_TOKEN', ''),
-    'license_url' => 'https://app.invoiceninja.com',
+    'license_url' => 'https://app.invoice.theredsun.org',
     'react_url' => env('REACT_URL', env('APP_URL', '')),
     'production' => env('NINJA_PROD', false),
     'license' => env('NINJA_LICENSE', ''),
     'version_url' => 'https://pdf.invoicing.co/api/version',
-    'app_name' => env('APP_NAME', 'Invoice Ninja'),
+    'app_name' => env('APP_NAME', 'Red Invoice'),
     'app_env' => env('APP_ENV', 'selfhosted'),
     'app_logo' => env('APP_LOGO', 'https://invoicing.co/images/new_logo.png'),
     'ninja_client_portal' => env('NINJA_CLIENT_PORTAL', 'https://invoiceninja.invoicing.co'),
@@ -47,18 +47,18 @@ return [
     'update_secret' => env('UPDATE_SECRET', ''),
     'license_key' => env('LICENSE_KEY', false),
     'hosted_ninja_url' => env('HOSTED_NINJA_URL', 'https://invoicing.co'),
-    // Settings used by invoiceninja.com
+    // Settings used by invoice.theredsun.org
     'disks' => [
         'backup' => env('BACKUP_DISK', 's3'),
         'document' => env('DOCUMENT_DISK', 's3'),
     ],
     'terms_of_service_url' => [
-        'hosted' => env('TERMS_OF_SERVICE_URL', 'https://www.invoiceninja.com/terms/'),
-        'selfhost' => env('TERMS_OF_SERVICE_URL', 'https://www.invoiceninja.com/self-hosting-terms-service/'),
+        'hosted' => env('TERMS_OF_SERVICE_URL', 'https://www.invoice.theredsun.org/terms/'),
+        'selfhost' => env('TERMS_OF_SERVICE_URL', 'https://www.invoice.theredsun.org/self-hosting-terms-service/'),
     ],
     'privacy_policy_url' => [
-        'hosted' => env('PRIVACY_POLICY_URL', 'https://www.invoiceninja.com/privacy-policy/'),
-        'selfhost' => env('PRIVACY_POLICY_URL', 'https://www.invoiceninja.com/self-hosting-privacy-data-control/'),
+        'hosted' => env('PRIVACY_POLICY_URL', 'https://www.invoice.theredsun.org/privacy-policy/'),
+        'selfhost' => env('PRIVACY_POLICY_URL', 'https://www.invoice.theredsun.org/self-hosting-privacy-data-control/'),
     ],
     'db' => [
         'multi_db_enabled' => env('MULTI_DB_ENABLED', false),
@@ -102,7 +102,7 @@ return [
     'contact' => [
         'email' => env('MAIL_FROM_ADDRESS'),
         'from_name' => env('MAIL_FROM_NAME'),
-        'ninja_official_contact' => env('NINJA_OFFICIAL_CONTACT', 'contact@invoiceninja.com'),
+        'ninja_official_contact' => env('NINJA_OFFICIAL_CONTACT', 'contact@invoice.theredsun.org'),
     ],
     'cached_tables' => [
         'banks' => App\Models\Bank::class,

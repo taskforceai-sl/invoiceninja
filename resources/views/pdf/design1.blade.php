@@ -37,7 +37,7 @@
     }
 
     table.items.heading {
-        background-color:#000;
+        background-color:#240000;
                 border-collapse: collapse; 
 
     }

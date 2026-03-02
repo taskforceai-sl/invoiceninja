@@ -55,7 +55,7 @@
 
         <!-- Title -->
         @if(isset($account) && !$account->isPaid())
-            <title>@yield('meta_title', '') — Invoice Ninja</title>
+            <title>@yield('meta_title', '') — Red Invoice</title>
         @elseif(isset($company) && !is_null($company))
             <title>@yield('meta_title', '') — {{ $company->present()->name() }}</title>
         @else
@@ -130,7 +130,7 @@
                 window.cookieconsent.initialise({
                     "palette": {
                         "popup": {
-                            "background": "#000"
+                            "background": "#240000"
                         },
                         "button": {
                             "background": "#f1d600"

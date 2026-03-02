@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Invoice Ninja (https://invoiceninja.com).
+ * Red Invoice (https://invoice.theredsun.org).
  *
  * @link https://github.com/invoiceninja/invoiceninja source repository
  *
- * @copyright Copyright (c) 2025. Invoice Ninja LLC (https://invoiceninja.com)
+ * @copyright Copyright (c) 2025. The Red Sun
  *
  * @license https://www.elastic.co/licensing/elastic-license
  */
@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Http;
 
 class AeatAuthority
 {
-    // @todo - in the UI, the user must navigate to AEAT link, and add Invoice Ninja as a third party. We cannot send without this.
+    // @todo - in the UI, the user must navigate to AEAT link, and add Red Invoice as a third party. We cannot send without this.
     // @todo - need to store the verification of this in the company
     // https://sede.agenciatributaria.gob.es/Sede/ayuda/consultas-informaticas/otros-servicios-ayuda-tecnica/consultar-confirmar-renunciar-apoderamiento-recibido.html
     // @todo - register with AEAT as a third party - power of attorney

@@ -6,6 +6,6 @@
     {!! $exception->getMessage() !!}
     {!! $content !!}
 @else
-    Please contact us at contact@invoiceninja.com for more information on this error.
+    Please contact us at contact@invoice.theredsun.org for more information on this error.
 @endif
 

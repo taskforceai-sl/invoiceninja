@@ -31,7 +31,7 @@ info:
           
           <div style="background-color: #2D394E; color: #fff padding: 20px; border-radius: 5px; border: 4px solid #212A3B; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
               <p style="padding:10px; color: #DBDBDB;"">Production: https://invoicing.co</p>
-              <p style="padding:10px; color: #DBDBDB;">Demo: https://demo.invoiceninja.com</p>
+              <p style="padding:10px; color: #DBDBDB;">Demo: https://demo.invoice.theredsun.org</p>
           </div>
 
           ### Client Libraries
@@ -65,16 +65,16 @@ info:
           When using index routes to retrieve lists of data, by default we limit the number of records returned to 20. You can using standard pagination to paginate results, ie: ?per_page=50
   termsOfService: 'https://invoiceninja.github.io/docs/legal/terms_of_service/#page-content'
   contact:
-    email: contact@invoiceninja.com
+    email: contact@invoice.theredsun.org
     name: Invoice Ninja Support
-    url: 'https://www.invoiceninja.com'
+    url: 'https://www.invoice.theredsun.org'
   license:
     name: 'Elastic License'
     url: 'https://www.elastic.co/licensing/elastic-license'
   version: 5.11.48
 
 servers:
-  - url: 'https://demo.invoiceninja.com'
+  - url: 'https://demo.invoice.theredsun.org'
     description: |
       ## Demo API endpoint 
       You can use the demo API key `TOKEN` to test the endpoints from within this API spec
@@ -178,7 +178,7 @@ paths:
         label: curl
         source: |
           curl --request POST \
-            --url 'https://demo.invoiceninja.com/api/v1/login?include=company,token' \
+            --url 'https://demo.invoice.theredsun.org/api/v1/login?include=company,token' \
             --header 'X-API-TOKEN: YOUR_API_TOKEN_HERE' \
             --header 'X-Requested-With: XMLHttpRequest' \
             --header 'Accept: application/json'
@@ -214,7 +214,7 @@ paths:
                 email:
                   description: "The users email address."
                   type: string
-                  example: "demo@invoiceninja.com"
+                  example: "demo@invoice.theredsun.org"
                 password:
                   description: "The user password. Must meet minimum criteria ~ > 6 characters"
                   type: string
@@ -8652,7 +8652,7 @@ paths:
       - lang: curl
         label: curl
         source: |
-          curl -X GET https://demo.invoiceninja.com/api/v1/credits \
+          curl -X GET https://demo.invoice.theredsun.org/api/v1/credits \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "X-Requested-With: XMLHttpRequest"
       parameters:
@@ -8756,7 +8756,7 @@ paths:
       - lang: curl
         label: curl
         source: |
-          curl -X GET https://demo.invoiceninja.com/api/v1/credits/D2J234DFA \
+          curl -X GET https://demo.invoice.theredsun.org/api/v1/credits/D2J234DFA \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "X-Requested-With: XMLHttpRequest"
       parameters:
@@ -8858,7 +8858,7 @@ paths:
       - lang: curl
         label: curl
         source: |
-          curl -X DELETE https://demo.invoiceninja.com/api/v1/credits/D2J234DFA \
+          curl -X DELETE https://demo.invoice.theredsun.org/api/v1/credits/D2J234DFA \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "X-Requested-With: XMLHttpRequest"
       parameters:
@@ -9144,7 +9144,7 @@ paths:
         label: curl
         source: |
           curl --request GET \
-            --url 'https://demo.invoiceninja.com/api/v1/locations?per_page=10&page=1&sort=name&sort_dir=asc' \
+            --url 'https://demo.invoice.theredsun.org/api/v1/locations?per_page=10&page=1&sort=name&sort_dir=asc' \
             --header 'X-API-TOKEN: YOUR_API_TOKEN_HERE' \
             --header 'Accept: application/json'
       description: |
@@ -9266,7 +9266,7 @@ paths:
         - lang: curl
           label: curl
           source: |
-            curl -X POST https://demo.invoiceninja.com/api/v1/locations \
+            curl -X POST https://demo.invoice.theredsun.org/api/v1/locations \
               -H "X-API-TOKEN: YOUR-TOKEN" \
               -H "Content-Type: application/json" \
               -H "X-Requested-With: XMLHttpRequest" \
@@ -9380,7 +9380,7 @@ paths:
         label: curl
         source: |
           curl --request GET \
-            --url 'https://demo.invoiceninja.com/api/v1/locations/D2J234DFA' \
+            --url 'https://demo.invoice.theredsun.org/api/v1/locations/D2J234DFA' \
             --header 'X-API-TOKEN: YOUR-TOKEN' \
             --header 'Accept: application/json'
 
@@ -9449,7 +9449,7 @@ paths:
       - lang: curl
         label: curl
         source: |
-          curl -X PUT https://demo.invoiceninja.com/api/v1/locations/D2J234DFA \
+          curl -X PUT https://demo.invoice.theredsun.org/api/v1/locations/D2J234DFA \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "Content-Type: application/json" \
             -H "X-Requested-With: XMLHttpRequest" \
@@ -9509,7 +9509,7 @@ paths:
         label: curl
         source: |
           curl -X DELETE \
-            --url 'https://demo.invoiceninja.com/api/v1/locations/D2J234DFA' \
+            --url 'https://demo.invoice.theredsun.org/api/v1/locations/D2J234DFA' \
             --header 'X-API-TOKEN: YOUR-TOKEN' \
             --header 'Accept: application/json'
 
@@ -9561,7 +9561,7 @@ paths:
         label: curl
         source: |
           curl --request GET \
-            --url 'https://demo.invoiceninja.com/api/v1/locations/create' \
+            --url 'https://demo.invoice.theredsun.org/api/v1/locations/create' \
             --header 'X-API-TOKEN: YOUR-TOKEN' \
             --header 'Accept: application/json'
 
@@ -9594,7 +9594,7 @@ paths:
       - lang: curl
         label: curl
         source: |
-          curl -X POST https://demo.invoiceninja.com/api/v1/locations/bulk \
+          curl -X POST https://demo.invoice.theredsun.org/api/v1/locations/bulk \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "Content-Type: application/json" \
             -H "X-Requested-With: XMLHttpRequest" \
@@ -9916,7 +9916,7 @@ paths:
       - lang: curl
         label: curl
         source: |
-          curl -X GET https://demo.invoiceninja.com/api/v1/recurring_invoices/D2J234DFA \
+          curl -X GET https://demo.invoice.theredsun.org/api/v1/recurring_invoices/D2J234DFA \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "X-Requested-With: XMLHttpRequest"
       parameters:
@@ -10373,7 +10373,7 @@ paths:
       - lang: curl
         label: curl
         source: |
-          curl -X GET https://demo.invoiceninja.com/api/v1/tasks \
+          curl -X GET https://demo.invoice.theredsun.org/api/v1/tasks \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "X-Requested-With: XMLHttpRequest"
       parameters:
@@ -10452,7 +10452,7 @@ paths:
       - lang: curl
         label: curl
         source: |
-          curl -X POST https://demo.invoiceninja.com/api/v1/tasks \
+          curl -X POST https://demo.invoice.theredsun.org/api/v1/tasks \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "Content-Type: application/json" \
             -H "X-Requested-With: XMLHttpRequest" \
@@ -10507,7 +10507,7 @@ paths:
       - lang: curl
         label: curl
         source: |
-          curl -X GET https://demo.invoiceninja.com/api/v1/tasks/D2J234DFA \
+          curl -X GET https://demo.invoice.theredsun.org/api/v1/tasks/D2J234DFA \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "X-Requested-With: XMLHttpRequest"
       parameters:
@@ -10587,7 +10587,7 @@ paths:
       - lang: curl
         label: curl
         source: |
-          curl -X PUT https://demo.invoiceninja.com/api/v1/tasks/D2J234DFA \
+          curl -X PUT https://demo.invoice.theredsun.org/api/v1/tasks/D2J234DFA \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "Content-Type: application/json" \
             -H "X-Requested-With: XMLHttpRequest" \
@@ -10638,7 +10638,7 @@ paths:
       - lang: curl
         label: curl
         source: |
-          curl -X DELETE https://demo.invoiceninja.com/api/v1/tasks/D2J234DFA \
+          curl -X DELETE https://demo.invoice.theredsun.org/api/v1/tasks/D2J234DFA \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "X-Requested-With: XMLHttpRequest"
       parameters:
@@ -10691,7 +10691,7 @@ paths:
       - lang: curl
         label: curl
         source: |
-          curl -X GET https://demo.invoiceninja.com/api/v1/tasks/D2J234DFA/edit \
+          curl -X GET https://demo.invoice.theredsun.org/api/v1/tasks/D2J234DFA/edit \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "X-Requested-With: XMLHttpRequest"
       parameters:
@@ -10748,7 +10748,7 @@ paths:
       - lang: curl
         label: curl
         source: |
-          curl -X GET https://demo.invoiceninja.com/api/v1/tasks/create \
+          curl -X GET https://demo.invoice.theredsun.org/api/v1/tasks/create \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "X-Requested-With: XMLHttpRequest"
       parameters:
@@ -10922,7 +10922,7 @@ paths:
       - lang: curl
         label: curl
         source: |
-          curl -X POST https://demo.invoiceninja.com/api/v1/tasks/sort \
+          curl -X POST https://demo.invoice.theredsun.org/api/v1/tasks/sort \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "Content-Type: application/json" \
             -H "X-Requested-With: XMLHttpRequest" \
@@ -12869,7 +12869,7 @@ paths:
       - lang: curl
         label: curl
         source: |
-          curl -X GET https://demo.invoiceninja.com/api/v1/projects \
+          curl -X GET https://demo.invoice.theredsun.org/api/v1/projects \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "X-Requested-With: XMLHttpRequest"
       parameters:
@@ -12948,7 +12948,7 @@ paths:
       - lang: curl
         label: curl
         source: |
-          curl -X POST https://demo.invoiceninja.com/api/v1/projects \
+          curl -X POST https://demo.invoice.theredsun.org/api/v1/projects \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "Content-Type: application/json" \
             -H "X-Requested-With: XMLHttpRequest" \
@@ -13003,7 +13003,7 @@ paths:
       - lang: curl
         label: curl
         source: |
-          curl -X GET https://demo.invoiceninja.com/api/v1/projects/D2J234DFA \
+          curl -X GET https://demo.invoice.theredsun.org/api/v1/projects/D2J234DFA \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "X-Requested-With: XMLHttpRequest"
       parameters:
@@ -13083,7 +13083,7 @@ paths:
       - lang: curl
         label: curl
         source: |
-          curl -X PUT https://demo.invoiceninja.com/api/v1/projects/D2J234DFA \
+          curl -X PUT https://demo.invoice.theredsun.org/api/v1/projects/D2J234DFA \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "Content-Type: application/json" \
             -H "X-Requested-With: XMLHttpRequest" \
@@ -13134,7 +13134,7 @@ paths:
       - lang: curl
         label: curl
         source: |
-          curl -X DELETE https://demo.invoiceninja.com/api/v1/projects/D2J234DFA \
+          curl -X DELETE https://demo.invoice.theredsun.org/api/v1/projects/D2J234DFA \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "X-Requested-With: XMLHttpRequest"
       parameters:
@@ -13187,7 +13187,7 @@ paths:
       - lang: curl
         label: curl
         source: |
-          curl -X GET https://demo.invoiceninja.com/api/v1/projects/D2J234DFA/edit \
+          curl -X GET https://demo.invoice.theredsun.org/api/v1/projects/D2J234DFA/edit \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "X-Requested-With: XMLHttpRequest"
       parameters:
@@ -13244,7 +13244,7 @@ paths:
       - lang: curl
         label: curl
         source: |
-          curl -X GET https://demo.invoiceninja.com/api/v1/projects/create \
+          curl -X GET https://demo.invoice.theredsun.org/api/v1/projects/create \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "X-Requested-With: XMLHttpRequest"
       parameters:
@@ -13406,7 +13406,7 @@ paths:
       - lang: curl
         label: curl
         source: |
-          curl -X GET https://demo.invoiceninja.com/api/v1/vendors \
+          curl -X GET https://demo.invoice.theredsun.org/api/v1/vendors \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "X-Requested-With: XMLHttpRequest"
       parameters:
@@ -13497,7 +13497,7 @@ paths:
       - lang: curl
         label: curl
         source: |
-          curl -X POST https://demo.invoiceninja.com/api/v1/vendors \
+          curl -X POST https://demo.invoice.theredsun.org/api/v1/vendors \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "Content-Type: application/json" \
             -H "X-Requested-With: XMLHttpRequest" \
@@ -13564,7 +13564,7 @@ paths:
       - lang: curl
         label: curl
         source: |
-          curl -X GET https://demo.invoiceninja.com/api/v1/vendors/D2J234DFA \
+          curl -X GET https://demo.invoice.theredsun.org/api/v1/vendors/D2J234DFA \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "X-Requested-With: XMLHttpRequest"
       parameters:
@@ -13645,7 +13645,7 @@ paths:
       - lang: curl
         label: curl
         source: |
-          curl -X PUT https://demo.invoiceninja.com/api/v1/vendors/D2J234DFA \
+          curl -X PUT https://demo.invoice.theredsun.org/api/v1/vendors/D2J234DFA \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "Content-Type: application/json" \
             -H "X-Requested-With: XMLHttpRequest" \
@@ -13697,7 +13697,7 @@ paths:
       - lang: curl
         label: curl
         source: |
-          curl -X DELETE https://demo.invoiceninja.com/api/v1/vendors/D2J234DFA \
+          curl -X DELETE https://demo.invoice.theredsun.org/api/v1/vendors/D2J234DFA \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "X-Requested-With: XMLHttpRequest"
       parameters:
@@ -13750,7 +13750,7 @@ paths:
       - lang: curl
         label: curl
         source: |
-          curl -X GET https://demo.invoiceninja.com/api/v1/vendors/D2J234DFA/edit \
+          curl -X GET https://demo.invoice.theredsun.org/api/v1/vendors/D2J234DFA/edit \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "X-Requested-With: XMLHttpRequest"
       parameters:
@@ -13807,7 +13807,7 @@ paths:
       - lang: curl
         label: curl
         source: |
-          curl -X GET https://demo.invoiceninja.com/api/v1/vendors/create \
+          curl -X GET https://demo.invoice.theredsun.org/api/v1/vendors/create \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "X-Requested-With: XMLHttpRequest"
       parameters:
@@ -13969,7 +13969,7 @@ paths:
       - lang: curl
         label: curl
         source: |
-          curl -X GET https://demo.invoiceninja.com/api/v1/payments \
+          curl -X GET https://demo.invoice.theredsun.org/api/v1/payments \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "X-Requested-With: XMLHttpRequest"
       parameters:
@@ -14135,7 +14135,7 @@ paths:
       - lang: curl
         label: curl
         source: |
-          curl -X GET https://demo.invoiceninja.com/api/v1/payments/D2J234DFA \
+          curl -X GET https://demo.invoice.theredsun.org/api/v1/payments/D2J234DFA \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "X-Requested-With: XMLHttpRequest"
       parameters:
@@ -14235,7 +14235,7 @@ paths:
       - lang: curl
         label: curl
         source: |
-          curl -X DELETE https://demo.invoiceninja.com/api/v1/payments/D2J234DFA \
+          curl -X DELETE https://demo.invoice.theredsun.org/api/v1/payments/D2J234DFA \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "X-Requested-With: XMLHttpRequest"
       parameters:
@@ -14842,7 +14842,7 @@ paths:
         - lang: curl
           label: curl
           source: |
-            curl -X POST https://demo.invoiceninja.com/api/v1/clients \
+            curl -X POST https://demo.invoice.theredsun.org/api/v1/clients \
               -H "X-API-TOKEN: YOUR-TOKEN" \
               -H "Content-Type: application/json" \
               -H "X-Requested-With: XMLHttpRequest" \
@@ -14918,7 +14918,7 @@ paths:
       - lang: curl
         label: php
         source: |
-          curl -X GET https://demo.invoiceninja.com/api/v1/clients/clientId123 \
+          curl -X GET https://demo.invoice.theredsun.org/api/v1/clients/clientId123 \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "X-Requested-With: XMLHttpRequest"
 
@@ -14990,7 +14990,7 @@ paths:
       - lang: curl
         label: curl
         source: |
-          curl -X PUT https://demo.invoiceninja.com/api/v1/clients/clientId123 \
+          curl -X PUT https://demo.invoice.theredsun.org/api/v1/clients/clientId123 \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "Content-Type: application/json" \
             -H "X-Requested-With: XMLHttpRequest" \
@@ -15076,7 +15076,7 @@ paths:
       - lang: curl
         label: curl
         source: |
-          curl -X DELETE https://demo.invoiceninja.com/api/v1/clients/clientId123 \
+          curl -X DELETE https://demo.invoice.theredsun.org/api/v1/clients/clientId123 \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "X-Requested-With: XMLHttpRequest"
 
@@ -15131,7 +15131,7 @@ paths:
       - lang: curl
         label: php
         source: |
-          curl -X GET https://demo.invoiceninja.com/api/v1/clients/clientId123 \
+          curl -X GET https://demo.invoice.theredsun.org/api/v1/clients/clientId123 \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "X-Requested-With: XMLHttpRequest"
       operationId: editClient
@@ -15191,7 +15191,7 @@ paths:
       - lang: curl
         label: php
         source: |
-          curl -X GET https://demo.invoiceninja.com/api/v1/clients/create \
+          curl -X GET https://demo.invoice.theredsun.org/api/v1/clients/create \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "X-Requested-With: XMLHttpRequest"
       operationId: getClientsCreate
@@ -15280,7 +15280,7 @@ paths:
       - lang: curl
         label: curl
         source: |
-          curl -X POST https://demo.invoiceninja.com/api/v1/clients/bulk \
+          curl -X POST https://demo.invoice.theredsun.org/api/v1/clients/bulk \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "Content-Type: application/json" \
             -H "X-Requested-With: XMLHttpRequest" \
@@ -15345,7 +15345,7 @@ paths:
       - lang: curl
         label: curl
         source: |
-          curl -X POST https://demo.invoiceninja.com/api/v1/clients/clientId123/upload \
+          curl -X POST https://demo.invoice.theredsun.org/api/v1/clients/clientId123/upload \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "X-Requested-With: XMLHttpRequest" \
             -F "_method=POST" \
@@ -15439,7 +15439,7 @@ paths:
       - lang: curl
         label: curl
         source: |
-          curl -X POST https://demo.invoiceninja.com/api/v1/clients/clientId123/purge \
+          curl -X POST https://demo.invoice.theredsun.org/api/v1/clients/clientId123/purge \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "X-Requested-With: XMLHttpRequest" \
             -H "X-API-PASSWORD: YOUR-PASSWORD"
@@ -15503,7 +15503,7 @@ paths:
       - lang: curl
         label: curl
         source: |
-          curl -X POST https://demo.invoiceninja.com/api/v1/clients/primaryClientId/mergeableClientId/merge \
+          curl -X POST https://demo.invoice.theredsun.org/api/v1/clients/primaryClientId/mergeableClientId/merge \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "X-Requested-With: XMLHttpRequest"
 
@@ -15576,7 +15576,7 @@ paths:
       - lang: curl
         label: curl
         source: |
-          curl -X POST https://demo.invoiceninja.com/api/v1/client_statement \
+          curl -X POST https://demo.invoice.theredsun.org/api/v1/client_statement \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "Content-Type: application/json" \
             -H "X-Requested-With: XMLHttpRequest" \
@@ -15664,7 +15664,7 @@ paths:
       - lang: curl
         label: curl
         source: |
-          curl -X POST https://demo.invoiceninja.com/api/v1/reactivate_email/bounce_id_123 \
+          curl -X POST https://demo.invoice.theredsun.org/api/v1/reactivate_email/bounce_id_123 \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "X-Requested-With: XMLHttpRequest"
       parameters:
@@ -15730,7 +15730,7 @@ paths:
       - lang: curl
         label: curl
         source: |
-          curl -X POST https://demo.invoiceninja.com/api/v1/clients/D2J234DFA/updateTaxData \
+          curl -X POST https://demo.invoice.theredsun.org/api/v1/clients/D2J234DFA/updateTaxData \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "Content-Type: application/json" \
             -H "X-Requested-With: XMLHttpRequest" \
@@ -15797,7 +15797,7 @@ paths:
       - lang: curl
         label: curl
         source: |
-          curl -X GET https://demo.invoiceninja.com/api/v1/purchase_orders \
+          curl -X GET https://demo.invoice.theredsun.org/api/v1/purchase_orders \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "X-Requested-With: XMLHttpRequest"
       parameters:
@@ -15886,7 +15886,7 @@ paths:
       - lang: curl
         label: curl
         source: |
-          curl -X POST https://demo.invoiceninja.com/api/v1/purchase_orders \
+          curl -X POST https://demo.invoice.theredsun.org/api/v1/purchase_orders \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "Content-Type: application/json" \
             -H "X-Requested-With: XMLHttpRequest" \
@@ -16021,7 +16021,7 @@ paths:
       - lang: curl
         label: curl
         source: |
-          curl -X PUT https://demo.invoiceninja.com/api/v1/purchase_order/D2J234DFA \
+          curl -X PUT https://demo.invoice.theredsun.org/api/v1/purchase_order/D2J234DFA \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "Content-Type: application/json" \
             -H "X-Requested-With: XMLHttpRequest" \

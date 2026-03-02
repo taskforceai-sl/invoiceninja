@@ -1,11 +1,11 @@
 <?php
 
 /**
- * PurchaseOrder Ninja (https://invoiceninja.com).
+ * PurchaseOrder Ninja (https://invoice.theredsun.org).
  *
  * @link https://github.com/invoiceninja/invoiceninja source repository
  *
- * @copyright Copyright (c) 2024. PurchaseOrder Ninja LLC (https://invoiceninja.com)
+ * @copyright Copyright (c) 2024. PurchaseOrder Ninja LLC (https://invoice.theredsun.org)
  *
  * @license https://www.elastic.co/licensing/elastic-license
  */

@@ -84,7 +84,7 @@ Hulp Nodig?
 
 Ons ondersteuningsteam staat klaar om u te helpen met vragen over e-facturatievereisten of -instellingen.
 
-Neem contact op met de support: contact@invoiceninja.com
+Neem contact op met de support: contact@invoice.theredsun.org
 
 Bedankt dat u voor onze e-facturatiedienst heeft gekozen.
     "

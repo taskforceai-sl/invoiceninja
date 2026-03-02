@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Invoice Ninja (https://invoiceninja.com).
+ * Red Invoice (https://invoice.theredsun.org).
  *
  * @link https://github.com/invoiceninja/invoiceninja source repository
  *
- * @copyright Copyright (c) 2025. Invoice Ninja LLC (https://invoiceninja.com)
+ * @copyright Copyright (c) 2025. The Red Sun
  *
  * @license https://www.elastic.co/licensing/elastic-license
  */
@@ -114,7 +114,7 @@ class SendEDocument implements ShouldQueue
                     $account->save();
                 }
 
-                nlog("Model {$model->number} was successfully sent for third party processing via hosted Invoice Ninja");
+                nlog("Model {$model->number} was successfully sent for third party processing via hosted Red Invoice");
                 $data = $r->json();
                 return $this->writeActivity($model, Activity::EINVOICE_DELIVERY_SUCCESS, $data['guid']);
             }

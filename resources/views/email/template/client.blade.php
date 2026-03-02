@@ -25,7 +25,7 @@
         
         @if(isset($settings) && $settings->email_style === 'dark')
         body {
-            background-color: #1a1a1a !important;
+            background-color: #240000 !important;
             color: #ffffff !important;
         }
         div, tr, td {
@@ -201,9 +201,9 @@
                 </tr>
 
                 <tr>
-                    <td cellpadding="20" bgcolor="#f9f9f9">
+                    <td cellpadding="20" bgcolor="#fcc0c0">
                         <div class="dark-bg dark-text-white"
-                             style="text-align: center; padding-top: 10px; padding-bottom: 25px; background-color: #f9f9f9; border: 1px solid #c2c2c2; border-top: none; border-bottom-color: #f9f9f9;">
+                             style="text-align: center; padding-top: 10px; padding-bottom: 25px; background-color: #fcc0c0; border: 1px solid #c2c2c2; border-top: none; border-bottom-color: #f9f9f9;">
                             @isset($signature)
                                 <p style="font-size: 15px; color: #2e2e2e; font-family: 'roboto', Arial, Helvetica, sans-serif; font-weight: 400; margin-bottom: 30px;">
                                     {!! nl2br($signature) !!}
@@ -223,21 +223,21 @@
                 </tr>
 
                 <tr>
-                    <td bgcolor="#242424"  cellpadding="20">
+                    <td bgcolor="#240000"  cellpadding="20">
                         <div class="dark-bg-base"
-                             style="padding-top: 10px;padding-bottom: 10px; background-color: #242424; border: 1px solid #c2c2c2; border-top-color: #242424; border-bottom-color: #242424;">
+                             style="padding-top: 10px;padding-bottom: 10px; background-color: #240000; border: 1px solid #c2c2c2; border-top-color: #240000; border-bottom-color: #240000;">
                             @if(isset($company))
                                 @if($company->account->isPaid())
                                     <p style="text-align: center; color: #ffffff; font-size: 10px;
                             font-family: Verdana, Geneva, Tahoma, sans-serif;">© {{ date('Y') }} {{ $company->present()->name() }}, All Rights Reserved</p>
                                 @else
                                     <p style="text-align: center; color: #ffffff; font-size: 10px; font-family: Verdana, Geneva, Tahoma, sans-serif;">
-                                        © {{ date('Y') }} Invoice Ninja, All Rights Reserved
+                                        © {{ date('Y') }} Red Invoice, All Rights Reserved
                                     </p>
                                 @endif
                             @else
                                 <p style="text-align: center; color: #ffffff; font-size: 10px; font-family: Verdana, Geneva, Tahoma, sans-serif;">
-                                    © {{ date('Y') }} Invoice Ninja, All Rights Reserved
+                                    © {{ date('Y') }} Red Invoice, All Rights Reserved
                                 </p>
                             @endif
                         </div>
@@ -246,9 +246,9 @@
 
                 @if(isset($email_preferences) && $email_preferences)
                 <tr>
-                    <td bgcolor="#242424"  cellpadding="20">
+                    <td bgcolor="#240000"  cellpadding="20">
                         <div class="dark-bg-base"
-                             style="padding-top: 10px;padding-bottom: 10px; background-color: #242424; border: 1px solid #c2c2c2; border-top-color: #242424; border-bottom-color: #242424;">
+                             style="padding-top: 10px;padding-bottom: 10px; background-color: #240000; border: 1px solid #c2c2c2; border-top-color: #240000; border-bottom-color: #240000;">
                                 <a href="{{ $email_preferences }}">
                                     <p style="text-align: center; color: #ffffff; font-size: 10px; font-family: Verdana, Geneva, Tahoma, sans-serif;">
                                         {{ ctrans('texts.email_preferences') }}

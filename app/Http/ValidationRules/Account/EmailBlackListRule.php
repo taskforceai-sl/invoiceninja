@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Invoice Ninja (https://invoiceninja.com).
+ * Red Invoice (https://invoice.theredsun.org).
  *
  * @link https://github.com/invoiceninja/invoiceninja source repository
  *
- * @copyright Copyright (c) 2025. Invoice Ninja LLC (https://invoiceninja.com)
+ * @copyright Copyright (c) 2025. The Red Sun
  *
  * @license https://www.elastic.co/licensing/elastic-license
  */
@@ -21,7 +21,7 @@ use Illuminate\Contracts\Validation\ValidationRule;
 class EmailBlackListRule implements ValidationRule
 {
     public array $blacklist = [
-        'noddy@invoiceninja.com',
+        'noddy@invoice.theredsun.org',
     ];
 
 
@@ -29,7 +29,7 @@ class EmailBlackListRule implements ValidationRule
     {
 
         if (in_array($value, $this->blacklist)) {
-            $fail('This email address is blacklisted, if you think this is in error, please email contact@invoiceninja.com');
+            $fail('This email address is blacklisted, if you think this is in error, please email contact@invoice.theredsun.org');
         }
 
     }

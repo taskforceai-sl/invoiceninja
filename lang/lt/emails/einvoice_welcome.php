@@ -84,7 +84,7 @@ Reikia pagalbos?
 
 Mūsų pagalbos komanda pasiruošusi padėti su bet kokiais klausimais apie elektroninio faktūravimo reikalavimus ar nustatymus.
 
-Susisiekite su pagalba: contact@invoiceninja.com
+Susisiekite su pagalba: contact@invoice.theredsun.org
 
 Dėkojame, kad pasirinkote mūsų elektroninio faktūravimo paslaugą.
     "

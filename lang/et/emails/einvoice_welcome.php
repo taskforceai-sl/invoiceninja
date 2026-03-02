@@ -84,7 +84,7 @@ Vajate Abi?
 
 Meie tugimeeskond on valmis aitama kõigi e-arvelduse nõuete või seadistamisega seotud küsimuste korral.
 
-Võtke ühendust toega: contact@invoiceninja.com
+Võtke ühendust toega: contact@invoice.theredsun.org
 
 Täname, et valisite meie e-arvelduse teenuse.
     "

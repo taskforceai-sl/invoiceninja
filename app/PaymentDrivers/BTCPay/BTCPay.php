@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Invoice Ninja (https://invoiceninja.com).
+ * Red Invoice (https://invoice.theredsun.org).
  *
  * @link https://github.com/invoiceninja/invoiceninja source repository
  *
- * @copyright Copyright (c) 2023. Invoice Ninja LLC (https://invoiceninja.com)
+ * @copyright Copyright (c) 2023. The Red Sun
  *
  * @license https://www.elastic.co/licensing/elastic-license
  */
@@ -90,8 +90,8 @@ class BTCPay implements MethodInterface, LivewireMethodInterface
                 'buyerZip' => $cli->postal_code,
                 'buyerCountry' => $cli->country_id,
                 'buyerPhone' => $cli->phone,
-                'itemDesc' => "From InvoiceNinja",
-                'InvoiceNinjaPaymentHash' => $drv->payment_hash->hash
+                'itemDesc' => "From Red Invoice",
+                'RedInvoicePaymentHash' => $drv->payment_hash->hash
             ];
 
 

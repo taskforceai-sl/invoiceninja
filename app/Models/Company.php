@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Invoice Ninja (https://invoiceninja.com).
+ * Red Invoice (https://invoice.theredsun.org).
  *
  * @link https://github.com/invoiceninja/invoiceninja source repository
  *
- * @copyright Copyright (c) 2025. Invoice Ninja LLC (https://invoiceninja.com)
+ * @copyright Copyright (c) 2025. The Red Sun
  *
  * @license https://www.elastic.co/licensing/elastic-license
  */
@@ -941,7 +941,7 @@ class Company extends BaseModel
         $data[] = $this->createRBit('email', 'user', ['email' => $user->email]);
         $data[] = $this->createRBit('phone', 'user', ['phone' => $user->phone]);
         $data[] = $this->createRBit('website_uri', 'user', ['uri' => $this->settings->website]);
-        $data[] = $this->createRBit('external_account', 'partner_database', ['is_partner_account' => 'yes', 'account_type' => 'Invoice Ninja', 'create_time' => time()]);
+        $data[] = $this->createRBit('external_account', 'partner_database', ['is_partner_account' => 'yes', 'account_type' => 'Red Invoice', 'create_time' => time()]);
 
         return $data;
     }

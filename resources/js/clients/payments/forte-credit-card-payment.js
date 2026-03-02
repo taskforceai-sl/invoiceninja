@@ -1,9 +1,9 @@
 /**
- * Invoice Ninja (https://invoiceninja.com)
+ * Red Invoice (https://invoice.theredsun.org)
  *
  * @link https://github.com/invoiceninja/invoiceninja source repository
  *
- * @copyright Copyright (c) 2021. Invoice Ninja LLC (https://invoiceninja.com)
+ * @copyright Copyright (c) 2021. The Red Sun
  *
  * @license https://opensource.org/licenses/AAL
  */

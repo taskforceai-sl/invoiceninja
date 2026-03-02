@@ -84,7 +84,7 @@ Potrzebujesz Pomocy?
 
 Nasz zespół wsparcia jest gotowy pomóc w każdej kwestii dotyczącej wymagań lub konfiguracji e-fakturowania.
 
-Skontaktuj się z pomocą techniczną: contact@invoiceninja.com
+Skontaktuj się z pomocą techniczną: contact@invoice.theredsun.org
 
 Dziękujemy za wybór naszej usługi e-fakturowania.
     "

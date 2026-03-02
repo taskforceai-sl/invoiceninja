@@ -84,7 +84,7 @@ Potřebujete Pomoc?
 
 Náš tým podpory je připraven pomoci s jakýmikoli dotazy ohledně požadavků nebo nastavení elektronické fakturace.
 
-Kontaktujte podporu: contact@invoiceninja.com
+Kontaktujte podporu: contact@invoice.theredsun.org
 
 Děkujeme, že jste si vybrali naši službu elektronické fakturace.
     "

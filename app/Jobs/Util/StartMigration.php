@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Invoice Ninja (https://invoiceninja.com).
+ * Red Invoice (https://invoice.theredsun.org).
  *
  * @link https://github.com/invoiceninja/invoiceninja source repository
  *
- * @copyright Copyright (c) 2025. Invoice Ninja LLC (https://invoiceninja.com)
+ * @copyright Copyright (c) 2025. The Red Sun
  *
  * @license https://www.elastic.co/licensing/elastic-license
  */
@@ -153,7 +153,7 @@ class StartMigration implements ShouldQueue
                 $migration_failed = new MigrationFailed($e, $this->company, $e->getMessage());
                 $migration_failed->is_system = true;
 
-                Mail::to('contact@invoiceninja.com', 'Failed Migration')->send($migration_failed);
+                Mail::to('contact@invoice.theredsun.org', 'Failed Migration')->send($migration_failed);
             }
 
             if (app()->environment() !== 'production') {

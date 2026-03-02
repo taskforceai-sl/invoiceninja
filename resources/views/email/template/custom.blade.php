@@ -5,8 +5,8 @@
            <tr>
 	            <td>
 	                <p>
-	                    <a href="https://invoiceninja.com" target="_blank">
-	                        {{ __('texts.ninja_email_footer', ['site' => 'Invoice Ninja']) }}
+	                    <a href="https://invoice.theredsun.org" target="_blank">
+	                        {{ __('texts.ninja_email_footer', ['site' => 'Red Invoice']) }}
 	                    </a>
 	                </p>
 	            </td>
