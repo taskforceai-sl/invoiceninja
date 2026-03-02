@@ -94,11 +94,11 @@ focus-trap/dist/focus-trap.js:
   * @license MIT, https://github.com/focus-trap/focus-trap/blob/master/LICENSE
   *)
 *//**
- * Invoice Ninja (https://invoiceninja.com).
+ * Invoice Ninja (https://invoice.theredsun.org).
  *
  * @link https://github.com/invoiceninja/invoiceninja source repository
  *
- * @copyright Copyright (c) 2022. Invoice Ninja LLC (https://invoiceninja.com)
+ * @copyright Copyright (c) 2022. Invoice Ninja LLC (https://invoice.theredsun.org)
  *
  * @license https://www.elastic.co/licensing/elastic-license
  */Da.start();window.axios=Kl;window.valid=Ku;document.querySelectorAll(".disposable-alert").forEach(e=>{setTimeout(()=>{e.remove()},5e3)});

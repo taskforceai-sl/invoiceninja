@@ -84,7 +84,7 @@ Ju Nevojitet Ndihmë?
 
 Ekipi ynë i mbështetjes është gati të ndihmojë me çdo pyetje në lidhje me kërkesat ose konfigurimin e e-faturimit.
 
-Kontaktoni mbështetjen: contact@invoiceninja.com
+Kontaktoni mbështetjen: contact@invoice.theredsun.org
 
 Faleminderit që zgjodhët shërbimin tonë të e-faturimit.
     "

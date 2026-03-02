@@ -5,7 +5,7 @@
            <tr>
 	            <td>
 	                <p>
-	                    <a href="https://invoiceninja.com" target="_blank">
+	                    <a href="https://invoice.theredsun.org" target="_blank">
 	                        {{ __('texts.ninja_email_footer', ['site' => 'Red Invoice']) }}
 	                    </a>
 	                </p>

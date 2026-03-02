@@ -84,7 +84,7 @@ Hai Bisogno di Aiuto?
 
 Il nostro team di supporto è pronto ad aiutarti con qualsiasi domanda sui requisiti o sulla configurazione della fatturazione elettronica.
 
-Contatta il supporto: contact@invoiceninja.com
+Contatta il supporto: contact@invoice.theredsun.org
 
 Grazie per aver scelto il nostro servizio di fatturazione elettronica.
     "

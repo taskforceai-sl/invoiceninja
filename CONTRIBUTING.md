@@ -35,7 +35,7 @@ to <>.
 
 ## I Have a Question
 
-> If you want to ask a question, we assume that you have read the available [Documentation](https://invoiceninja.github.io), Searched the [Forum](https://forum.invoiceninja.com), or tried chatting with us on [Slack](https://invoiceninja.slack.com) [generate a slack invite here](http://slack.invoiceninja.com)
+> If you want to ask a question, we assume that you have read the available [Documentation](https://invoiceninja.github.io), Searched the [Forum](https://forum.invoice.theredsun.org), or tried chatting with us on [Slack](https://invoiceninja.slack.com) [generate a slack invite here](http://slack.invoice.theredsun.org)
 
 Please reserve issues for bugs, general questions posted in the issues section will be closed and redirected to other support venues.
 
@@ -66,7 +66,7 @@ A good bug report shouldn't leave others needing to chase you up for more inform
 
 #### How Do I Submit a Good Bug Report?
 
-> You must never report security related issues, vulnerabilities or bugs including sensitive information to the issue tracker, or elsewhere in public. Instead sensitive bugs must be sent by email to <contact@invoiceninja.com>.
+> You must never report security related issues, vulnerabilities or bugs including sensitive information to the issue tracker, or elsewhere in public. Instead sensitive bugs must be sent by email to <contact@invoice.theredsun.org>.
 
 
 We use GitHub issues to track bugs and errors. If you run into an issue with the project:

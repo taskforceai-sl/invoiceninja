@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Red Invoice (https://redinvoice.com).
+ * Red Invoice (https://invoice.theredsun.org).
  *
  * @link https://github.com/invoiceninja/invoiceninja source repository
  *
@@ -46,7 +46,7 @@ class HostedMigrationController extends Controller
         // if(\App\Models\RecurringInvoice::query()->where('company_id', $c->id)->where('created_at', '>', now()->subMonths(2)))
         //     return response()->json(['message' => 'New data exists, are you sure? Please log in here https://app.invoicing.co and delete the company if you really need to migrate again.'], 400);
 
-        return response()->json(['message' => 'You have already activated this company on v5!!!!!! This migration may be a BAD idea. Contact us contact@invoiceninja.com to confirm this action.'], 400);
+        return response()->json(['message' => 'You have already activated this company on v5!!!!!! This migration may be a BAD idea. Contact us contact@invoice.theredsun.org to confirm this action.'], 400);
 
     }
 
@@ -61,7 +61,7 @@ class HostedMigrationController extends Controller
                 return response()->json(['token' => $user->account->companies->first()->tokens->first()->token], 200);
             }
 
-            return response()->json(['error' => 'This user is not able to perform a migration. Please contact us at contact@invoiceninja.com to discuss.'], 401);
+            return response()->json(['error' => 'This user is not able to perform a migration. Please contact us at contact@invoice.theredsun.org to discuss.'], 401);
         }
 
         $account = (new CreateAccount($request->all(), $request->getClientIp()))->handle();

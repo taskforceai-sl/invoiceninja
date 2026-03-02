@@ -18,7 +18,7 @@
       - lang: curl
         label: curl
         source: |
-          curl -X GET https://demo.invoiceninja.com/api/v1/tasks \
+          curl -X GET https://demo.invoice.theredsun.org/api/v1/tasks \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "X-Requested-With: XMLHttpRequest"
       parameters:
@@ -97,7 +97,7 @@
       - lang: curl
         label: curl
         source: |
-          curl -X POST https://demo.invoiceninja.com/api/v1/tasks \
+          curl -X POST https://demo.invoice.theredsun.org/api/v1/tasks \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "Content-Type: application/json" \
             -H "X-Requested-With: XMLHttpRequest" \
@@ -152,7 +152,7 @@
       - lang: curl
         label: curl
         source: |
-          curl -X GET https://demo.invoiceninja.com/api/v1/tasks/D2J234DFA \
+          curl -X GET https://demo.invoice.theredsun.org/api/v1/tasks/D2J234DFA \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "X-Requested-With: XMLHttpRequest"
       parameters:
@@ -232,7 +232,7 @@
       - lang: curl
         label: curl
         source: |
-          curl -X PUT https://demo.invoiceninja.com/api/v1/tasks/D2J234DFA \
+          curl -X PUT https://demo.invoice.theredsun.org/api/v1/tasks/D2J234DFA \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "Content-Type: application/json" \
             -H "X-Requested-With: XMLHttpRequest" \
@@ -283,7 +283,7 @@
       - lang: curl
         label: curl
         source: |
-          curl -X DELETE https://demo.invoiceninja.com/api/v1/tasks/D2J234DFA \
+          curl -X DELETE https://demo.invoice.theredsun.org/api/v1/tasks/D2J234DFA \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "X-Requested-With: XMLHttpRequest"
       parameters:
@@ -336,7 +336,7 @@
       - lang: curl
         label: curl
         source: |
-          curl -X GET https://demo.invoiceninja.com/api/v1/tasks/D2J234DFA/edit \
+          curl -X GET https://demo.invoice.theredsun.org/api/v1/tasks/D2J234DFA/edit \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "X-Requested-With: XMLHttpRequest"
       parameters:
@@ -393,7 +393,7 @@
       - lang: curl
         label: curl
         source: |
-          curl -X GET https://demo.invoiceninja.com/api/v1/tasks/create \
+          curl -X GET https://demo.invoice.theredsun.org/api/v1/tasks/create \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "X-Requested-With: XMLHttpRequest"
       parameters:
@@ -567,7 +567,7 @@
       - lang: curl
         label: curl
         source: |
-          curl -X POST https://demo.invoiceninja.com/api/v1/tasks/sort \
+          curl -X POST https://demo.invoice.theredsun.org/api/v1/tasks/sort \
             -H "X-API-TOKEN: YOUR-TOKEN" \
             -H "Content-Type: application/json" \
             -H "X-Requested-With: XMLHttpRequest" \

@@ -84,7 +84,7 @@ return [
 
 電子請求書の要件や設定に関する質問について、サポートチームが対応いたします。
 
-サポートにお問い合わせください: contact@invoiceninja.com
+サポートにお問い合わせください: contact@invoice.theredsun.org
 
 当社の電子請求書サービスをご利用いただきありがとうございます。
     "

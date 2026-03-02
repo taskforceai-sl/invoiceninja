@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Invoice Ninja (https://invoiceninja.com).
+ * Invoice Ninja (https://invoice.theredsun.org).
  *
  * @link https://github.com/invoiceninja/invoiceninja source repository
  *
- * @copyright Copyright (c) 2025. Invoice Ninja LLC (https://invoiceninja.com)
+ * @copyright Copyright (c) 2025. Invoice Ninja LLC (https://invoice.theredsun.org)
  *
  * @license https://www.elastic.co/licensing/elastic-license
  */
@@ -78,7 +78,7 @@ class CompanyTransformerTest extends TestCase
             'CompanyEmailAddr' => null,
             'CustomerCommunicationEmailAddr' => [
                 'Id' => '',
-                'Address' => 'david@invoiceninja.com',
+                'Address' => 'david@invoice.theredsun.org',
                 'Default' => null,
                 'Tag' => '',
             ],
@@ -96,7 +96,7 @@ class CompanyTransformerTest extends TestCase
             ],
             'Email' => [
                 'Id' => '',
-                'Address' => 'david@invoiceninja.com',
+                'Address' => 'david@invoice.theredsun.org',
                 'Default' => null,
                 'Tag' => '',
             ],
@@ -167,7 +167,7 @@ class CompanyTransformerTest extends TestCase
         $settings = $result['settings'];
 
         $this->assertEquals('4081234567', $settings['phone']);
-        $this->assertEquals('david@invoiceninja.com', $settings['email']);
+        $this->assertEquals('david@invoice.theredsun.org', $settings['email']);
     }
 
     public function testCountryResolution(): void
@@ -230,7 +230,7 @@ class CompanyTransformerTest extends TestCase
         $this->assertEquals('CA', $company->settings->state);
         $this->assertEquals('87999', $company->settings->postal_code);
         $this->assertEquals('4081234567', $company->settings->phone);
-        $this->assertEquals('david@invoiceninja.com', $company->settings->email);
+        $this->assertEquals('david@invoice.theredsun.org', $company->settings->email);
     }
 
     public function testCanPersistBothQuickbooksAndSettings(): void
@@ -251,7 +251,7 @@ class CompanyTransformerTest extends TestCase
         $company->refresh();
         $this->assertEquals('Sandbox Company_US_1', $company->quickbooks->companyName);
         $this->assertEquals('123 Sierra Way', $company->settings->address1);
-        $this->assertEquals('david@invoiceninja.com', $company->settings->email);
+        $this->assertEquals('david@invoice.theredsun.org', $company->settings->email);
     }
 
     public function testAddressFallbackToLegalAddr(): void
@@ -276,7 +276,7 @@ class CompanyTransformerTest extends TestCase
         $result = $this->transformer->transform($qbData);
 
         // Should fallback to CustomerCommunicationEmailAddr
-        $this->assertEquals('david@invoiceninja.com', $result['settings']['email']);
+        $this->assertEquals('david@invoice.theredsun.org', $result['settings']['email']);
     }
 
     public function testHandlesEmptyData(): void

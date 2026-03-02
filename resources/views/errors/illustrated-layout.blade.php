@@ -239,7 +239,7 @@
             }
 
             .bg-white {
-                background-color: #fff;
+                background-color: #fcc0c0;
             }
 
             .bg-teal-light {

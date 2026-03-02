@@ -95,7 +95,7 @@ paths:
         label: curl
         source: |
           curl --request POST \
-            --url 'https://demo.invoiceninja.com/api/v1/login?include=company,token' \
+            --url 'https://demo.invoice.theredsun.org/api/v1/login?include=company,token' \
             --header 'X-API-TOKEN: YOUR_API_TOKEN_HERE' \
             --header 'X-Requested-With: XMLHttpRequest' \
             --header 'Accept: application/json'
@@ -131,7 +131,7 @@ paths:
                 email:
                   description: "The users email address."
                   type: string
-                  example: "demo@invoiceninja.com"
+                  example: "demo@invoice.theredsun.org"
                 password:
                   description: "The user password. Must meet minimum criteria ~ > 6 characters"
                   type: string

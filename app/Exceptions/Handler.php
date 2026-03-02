@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Red Invoice (https://redinvoice.com).
+ * Red Invoice (https://invoice.theredsun.org).
  *
  * @link https://github.com/invoiceninja/invoiceninja source repository
  *
@@ -107,7 +107,7 @@ class Handler extends ExceptionHandler
         if (Ninja::isHosted()) {
 
             Integration::configureScope(function (Scope $scope): void {
-                $name = 'hosted@invoiceninja.com';
+                $name = 'hosted@invoice.theredsun.org';
 
                 if (auth()->guard('contact') && auth()->guard('contact')->user()) { // @phpstan-ignore-line
                     $name = 'Contact = '.auth()->guard('contact')->user()->email;
@@ -122,7 +122,7 @@ class Handler extends ExceptionHandler
 
                 $scope->setUser([
                     'id'    => $key,
-                    'email' => 'hosted@invoiceninja.com',
+                    'email' => 'hosted@invoice.theredsun.org',
                     'name'  => $name,
                 ]);
             });

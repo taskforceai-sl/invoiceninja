@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Red Invoice (https://redinvoice.com).
+ * Red Invoice (https://invoice.theredsun.org).
  *
  * @link https://github.com/purchase_orderninja/purchase_orderninja source repository
  *

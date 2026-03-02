@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Project Ninja (https://invoiceninja.com).
+ * Project Ninja (https://invoice.theredsun.org).
  *
  * @link https://github.com/invoiceninja/invoiceninja source repository
  *
- * @copyright Copyright (c) 2022. Project Ninja LLC (https://invoiceninja.com)
+ * @copyright Copyright (c) 2022. Project Ninja LLC (https://invoice.theredsun.org)
  *
  * @license https://www.elastic.co/licensing/elastic-license
  */

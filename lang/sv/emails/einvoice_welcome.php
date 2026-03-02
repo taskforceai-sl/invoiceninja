@@ -84,7 +84,7 @@ Behöver du Hjälp?
 
 Vårt supportteam står redo att hjälpa till med alla frågor om e-faktureringskrav eller konfiguration.
 
-Kontakta support: contact@invoiceninja.com
+Kontakta support: contact@invoice.theredsun.org
 
 Tack för att du valt vår e-faktureringstjänst.
     "

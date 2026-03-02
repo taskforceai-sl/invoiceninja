@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Red Invoice (https://redinvoice.com).
+ * Red Invoice (https://invoice.theredsun.org).
  *
  * @link https://github.com/invoiceninja/invoiceninja source repository
  *
@@ -54,7 +54,7 @@ use Symfony\Component\Console\Input\InputOption;
 WARNING: Please backup your database before running this script
 ##################################################################
 
-If you have any questions please email us at contact@invoiceninja.com
+If you have any questions please email us at contact@invoice.theredsun.org
 
 Usage:
 

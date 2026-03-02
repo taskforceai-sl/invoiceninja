@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Red Invoice (https://redinvoice.com).
+ * Red Invoice (https://invoice.theredsun.org).
  *
  * @link https://github.com/invoiceninja/invoiceninja source repository
  *
@@ -92,7 +92,7 @@ class ClientContactRequestCancellation extends Notification
                 ->success()
                 ->to('#devv2')
                 ->from('System')
-                ->image('https://app.invoiceninja.com/favicon.png')
+                ->image('https://app.invoice.theredsun.org/favicon.png')
                 ->content("Contact {$name} from client {$client_name} requested to cancel Recurring Invoice #{$recurring_invoice_number}");
     }
 

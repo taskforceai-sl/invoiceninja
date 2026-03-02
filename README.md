@@ -1,35 +1,35 @@
 <p align="center">
-<a href ="https://www.youtube.com/watch?v=CxGxXiotv0I" target="_blank" title="Invoice Ninja Overview Video"><img src="https://raw.githubusercontent.com/hillelcoren/invoice-ninja/master/public/images/round_logo.png" alt="Sublime's custom image"/></a>
+<a href ="https://www.youtube.com/watch?v=CxGxXiotv0I" target="_blank" title="Red Invoice Overview Video"><img src="https://raw.githubusercontent.com/hillelcoren/invoice-ninja/master/public/images/round_logo.png" alt="Sublime's custom image"/></a>
 </p>
 
 ![v5-develop phpunit](https://github.com/invoiceninja/invoiceninja/workflows/phpunit/badge.svg?branch=v5-develop)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/d16c78aad8574466bf83232b513ef4fb)](https://www.codacy.com/gh/turbo124/invoiceninja/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=turbo124/invoiceninja&amp;utm_campaign=Badge_Grade)
 <a href="https://cla-assistant.io/invoiceninja/invoiceninja"><img src="https://cla-assistant.io/readme/badge/invoiceninja/invoiceninja" alt="CLA assistant" /></a>
 
-# Invoice Ninja 5
+# Red Invoice 5
 
-Invoice Ninja Version 5 is here! We've taken the best parts of version 4 and added the most requested features to create an invoicing application like no other. Check the [Invoice Ninja YouTube Channel](https://www.youtube.com/@appinvoiceninja) to get up to speed, or try the [Demo](https://react.invoicing.co/demo) now.
+Red Invoice Version 5 is here! We've taken the best parts of version 4 and added the most requested features to create an invoicing application like no other. Check the [Red Invoice YouTube Channel](https://www.youtube.com/@appinvoiceninja) to get up to speed, or try the [Demo](https://react.invoicing.co/demo) now.
 
 **Choose your setup**
 
-- [Hosted](https://www.invoiceninja.com): Our hosted version is a Software as a Service (SaaS) solution. You're up and running in under 5 minutes, with no need to worry about hosting or server infrastructure.
+- [Hosted](https://www.invoice.theredsun.org): Our hosted version is a Software as a Service (SaaS) solution. You're up and running in under 5 minutes, with no need to worry about hosting or server infrastructure.
 - [Self-Hosted](https://www.invoiceninja.org): For those who prefer to manage their own hosting and server infrastructure. This version gives you full control and flexibility.
 
-All Pro and Enterprise features from the hosted app are included in the source-available code. We offer a $40 per year white-label license to remove the Invoice Ninja branding from client-facing parts of the app.
+All Pro and Enterprise features from the hosted app are included in the source-available code. We offer a $40 per year white-label license to remove the Red Invoice branding from client-facing parts of the app.
 
 #### Get social with us
 
-* [Support Forum](https://forum.invoiceninja.com)
-* [Slack](http://slack.invoiceninja.com)
+* [Support Forum](https://forum.invoice.theredsun.org)
+* [Slack](http://slack.invoice.theredsun.org)
 * [Discord](https://discord.gg/ZwEdtfCwXA)
 * [Instagram](https://www.instagram.com/appinvoiceninja)
 
 #### Documentation
 
-* [Invoice Ninja - API](https://api-docs.invoicing.co/)
-* [Invoice Ninja - Developer Guide](https://invoiceninja.github.io/en/developer-guide/)
-* [Invoice Ninja - User Guide](https://invoiceninja.github.io/en/user-guide/)
-* [Invoice Ninja - Self-Hosted Installation Guide](https://invoiceninja.github.io/en/self-host-installation/)
+* [Red Invoice - API](https://api-docs.invoicing.co/)
+* [Red Invoice - Developer Guide](https://invoiceninja.github.io/en/developer-guide/)
+* [Red Invoice - User Guide](https://invoiceninja.github.io/en/user-guide/)
+* [Red Invoice - Self-Hosted Installation Guide](https://invoiceninja.github.io/en/self-host-installation/)
 
 ## Installation Options and Clients
 
@@ -42,7 +42,7 @@ All Pro and Enterprise features from the hosted app are included in the source-a
 * [macOS](https://apps.apple.com/app/id1503970375?platform=mac)
 * [Windows](https://microsoft.com/en-us/p/invoice-ninja/9n3f2bbcfdr6)
 * [Linux - Snap](https://snapcraft.io/invoiceninja)
-* [Linux - Flatpak](https://flathub.org/apps/com.invoiceninja.InvoiceNinja)
+* [Linux - Flatpak](https://flathub.org/apps/com.invoiceninja.Red Invoice)
 
 ### Self-Hosted Server Installation 
 **Note:** The self-hosted options do support the desktop and mobile apps.
@@ -63,7 +63,7 @@ All Pro and Enterprise features from the hosted app are included in the source-a
 
 ## [Advanced] Quick Hosting Setup
 
-In addition to the official [Invoice Ninja - Self-Hosted Installation Guide](https://invoiceninja.github.io/en/self-host-installation/) we have a few commands for you.
+In addition to the official [Red Invoice - Self-Hosted Installation Guide](https://invoiceninja.github.io/en/self-host-installation/) we have a few commands for you.
 
 ```sh
 git clone --depth 1 -b v5.11.53 https://github.com/invoiceninja/invoiceninja.git
@@ -101,7 +101,7 @@ pass: password
 ```
 ## Developers Guide
 
-In addition to the official [Invoice Ninja - Developer Guide](https://invoiceninja.github.io/en/developer-guide/) we've got your back with some insights.
+In addition to the official [Red Invoice - Developer Guide](https://invoiceninja.github.io/en/developer-guide/) we've got your back with some insights.
 
 ### App Design
 
@@ -176,10 +176,10 @@ Checkout our other projects here!
 
 ## Security
 
-If you find a security issue with this application, please send an email to contact@invoiceninja.com.
+If you find a security issue with this application, please send an email to contact@invoice.theredsun.org.
 Please follow responsible disclosure procedures if you detect an issue.
 For further information on responsible disclosure please read [here](https://cheatsheetseries.owasp.org/cheatsheets/Vulnerability_Disclosure_Cheat_Sheet.html).
 
 ## License
-Invoice Ninja is released under the Elastic License.  
+Red Invoice is released under the Elastic License.  
 See [LICENSE](LICENSE) for details.

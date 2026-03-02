@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Red Invoice (https://redinvoice.com).
+ * Red Invoice (https://invoice.theredsun.org).
  *
  * @link https://github.com/invoiceninja/invoiceninja source repository
  *
@@ -90,8 +90,8 @@ class BTCPay implements MethodInterface, LivewireMethodInterface
                 'buyerZip' => $cli->postal_code,
                 'buyerCountry' => $cli->country_id,
                 'buyerPhone' => $cli->phone,
-                'itemDesc' => "From InvoiceNinja",
-                'InvoiceNinjaPaymentHash' => $drv->payment_hash->hash
+                'itemDesc' => "From Red Invoice",
+                'RedInvoicePaymentHash' => $drv->payment_hash->hash
             ];
 
 

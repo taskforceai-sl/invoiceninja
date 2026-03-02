@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Red Invoice (https://redinvoice.com).
+ * Red Invoice (https://invoice.theredsun.org).
  *
  * @link https://github.com/invoiceninja/invoiceninja source repository
  *
@@ -153,7 +153,7 @@ class StartMigration implements ShouldQueue
                 $migration_failed = new MigrationFailed($e, $this->company, $e->getMessage());
                 $migration_failed->is_system = true;
 
-                Mail::to('contact@invoiceninja.com', 'Failed Migration')->send($migration_failed);
+                Mail::to('contact@invoice.theredsun.org', 'Failed Migration')->send($migration_failed);
             }
 
             if (app()->environment() !== 'production') {

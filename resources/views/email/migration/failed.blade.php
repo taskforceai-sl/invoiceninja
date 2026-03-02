@@ -10,7 +10,7 @@
             @else
                 @if($special_message)
                 @endif
-                <p>Please contact us at contact@invoiceninja.com for more information on this error.</p>
+                <p>Please contact us at contact@invoice.theredsun.org for more information on this error.</p>
             @endif
         </pre>
     </div>

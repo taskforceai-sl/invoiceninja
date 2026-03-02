@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Invoice Ninja (https://invoiceninja.com).
+ * Invoice Ninja (https://invoice.theredsun.org).
  *
  * @link https://github.com/invoiceninja/invoiceninja source repository
  *
- * @copyright Copyright (c) 2021. Invoice Ninja LLC (https://invoiceninja.com)
+ * @copyright Copyright (c) 2021. Invoice Ninja LLC (https://invoice.theredsun.org)
  *
  * @license https://www.elastic.co/licensing/elastic-license
  */
@@ -281,7 +281,7 @@ class PdfServiceTest extends TestCase
         $settings = CompanySettings::defaults();
         $settings->pdf_variables = json_decode($this->max_pdf_variables);
         $settings->company_logo = 'https://pdf.invoicing.co/favicon-v2.png';
-        $settings->website = 'www.invoiceninja.com';
+        $settings->website = 'www.invoice.theredsun.org';
         $settings->name = 'Invoice Ninja';
         $settings->address1 = 'Address 1';
         $settings->address2 = 'Address 2';
@@ -345,7 +345,7 @@ class PdfServiceTest extends TestCase
         $settings = CompanySettings::defaults();
         $settings->pdf_variables = json_decode($this->max_pdf_variables);
         $settings->company_logo = 'https://pdf.invoicing.co/favicon-v2.png';
-        $settings->website = 'www.invoiceninja.com';
+        $settings->website = 'www.invoice.theredsun.org';
         $settings->name = 'Invoice Ninja';
         $settings->address1 = 'Address 1';
         $settings->address2 = 'Address 2';
@@ -411,7 +411,7 @@ class PdfServiceTest extends TestCase
         $settings = CompanySettings::defaults();
         $settings->pdf_variables = json_decode($this->max_pdf_variables);
         $settings->company_logo = 'https://pdf.invoicing.co/favicon-v2.png';
-        $settings->website = 'www.invoiceninja.com';
+        $settings->website = 'www.invoice.theredsun.org';
         $settings->name = 'Invoice Ninja';
         $settings->address1 = 'Address 1';
         $settings->address2 = 'Address 2';
@@ -464,7 +464,7 @@ class PdfServiceTest extends TestCase
         $settings = CompanySettings::defaults();
         $settings->pdf_variables = json_decode($this->max_pdf_variables);
         $settings->company_logo = 'https://pdf.invoicing.co/favicon-v2.png';
-        $settings->website = 'www.invoiceninja.com';
+        $settings->website = 'www.invoice.theredsun.org';
         $settings->name = 'Invoice Ninja';
         $settings->address1 = 'Address 1';
         $settings->address2 = 'Address 2';
@@ -508,7 +508,7 @@ class PdfServiceTest extends TestCase
         $settings = CompanySettings::defaults();
         $settings->pdf_variables = json_decode($this->min_pdf_variables);
         $settings->company_logo = 'https://pdf.invoicing.co/favicon-v2.png';
-        $settings->website = 'www.invoiceninja.com';
+        $settings->website = 'www.invoice.theredsun.org';
         $settings->name = 'Invoice Ninja';
         $settings->address1 = 'Address 1';
         $settings->address2 = 'Address 2';

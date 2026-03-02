@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Quote Ninja (https://invoiceninja.com).
+ * Quote Ninja (https://invoice.theredsun.org).
  *
  * @link https://github.com/invoiceninja/invoiceninja source repository
  *
- * @copyright Copyright (c) 2022. Quote Ninja LLC (https://invoiceninja.com)
+ * @copyright Copyright (c) 2022. Quote Ninja LLC (https://invoice.theredsun.org)
  *
  * @license https://www.elastic.co/licensing/elastic-license
  */

@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Red Invoice (https://redinvoice.com).
+ * Red Invoice (https://invoice.theredsun.org).
  *
  * @link https://github.com/invoiceninja/invoiceninja source repository
  *
@@ -104,7 +104,7 @@ class Gateway extends StaticModel
         } elseif ($this->id == 59) {
             $link = 'https://www.forte.net/';
         } elseif ($this->id == 62) {
-            $link = 'https://docs.btcpayserver.org/InvoiceNinja/';
+            $link = 'https://docs.btcpayserver.org/RedInvoice/';
         } elseif ($this->id == 63) {
             $link = 'https://rotessa.com';
         } elseif ($this->id == 65) {

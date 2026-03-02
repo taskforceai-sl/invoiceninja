@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Red Invoice (https://redinvoice.com).
+ * Red Invoice (https://invoice.theredsun.org).
  *
  * @link https://github.com/invoiceninja/invoiceninja source repository
  *
@@ -105,7 +105,7 @@ class BTCPayPaymentDriver extends BaseDriver
             return response()->json(['error' => 'Invalid BTCPayServer payment notification - did not receive invoice ID.'], 400);
         }
 
-        if (!isset($btcpayRep->metadata->InvoiceNinjaPaymentHash)) {
+        if (!isset($btcpayRep->metadata->RedInvoicePaymentHash)) {
 
             return response()->json(['error' => 'Invalid BTCPayServer payment notification - did not receive Payment Hashed ID.'], 400);
 
@@ -139,7 +139,7 @@ class BTCPayPaymentDriver extends BaseDriver
         }
 
         $this->setPaymentMethod(GatewayType::CRYPTO);
-        $this->payment_hash = PaymentHash::where('hash', $btcpayRep->metadata->InvoiceNinjaPaymentHash)->firstOrFail();
+        $this->payment_hash = PaymentHash::where('hash', $btcpayRep->metadata->RedInvoicePaymentHash)->firstOrFail();
 
         $StatusId = Payment::STATUS_PENDING;
 

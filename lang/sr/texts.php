@@ -2902,7 +2902,7 @@ Kada budete imali iznose, vratite se na ovu stranicu sa načinima plaćanja i k
     'local_part_unavailable' => 'Ime zauzeto',
     'local_part_available' => 'Ime dostupno',
     'local_part_invalid' => 'Nepravilno ime (samo alfanumerički, bez razmaka',
-    'local_part_help' => 'Podesite lokalni deo imena za Vašu dolazeću poštu za podršku, npr. VASE_IME@support.invoiceninja.com',
+    'local_part_help' => 'Podesite lokalni deo imena za Vašu dolazeću poštu za podršku, npr. VASE_IME@support.invoice.theredsun.org',
     'from_name_help' => 'Ime pošiljaoca je prepoznatljivo ime koje se prikazuje umesto adrese e-pošte, npr. Korisnički Centar',
     'local_part_placeholder' => 'VASE_IME',
     'from_name_placeholder' => 'Korisnički Centar',

@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Red Invoice (https://redinvoice.com).
+ * Red Invoice (https://invoice.theredsun.org).
  *
  * @link https://github.com/invoiceninja/invoiceninja source repository
  *
@@ -53,7 +53,7 @@ class GmailTokenInvalid extends Mailable
         $this->title = ctrans('texts.gmail_credentials_invalid_subject');
         $this->body = ctrans('texts.gmail_credentials_invalid_body');
         $this->whitelabel = $this->company->account->isPaid();
-        $this->replyTo('contact@invoiceninja.com', 'Contact');
+        $this->replyTo('contact@invoice.theredsun.org', 'Contact');
 
         return $this->from(config('mail.from.address'), config('mail.from.name'))
                     ->subject(ctrans('texts.gmail_credentials_invalid_subject'))

@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Red Invoice (https://redinvoice.com).
+ * Red Invoice (https://invoice.theredsun.org).
  *
  * @link https://github.com/invoiceninja/invoiceninja source repository
  *
@@ -92,7 +92,7 @@ class EntitySentNotification extends Notification
         return (new SlackMessage())
                     ->from(ctrans('texts.notification_bot'))
                     ->success()
-                    ->image('https://app.invoiceninja.com/favicon-v2.png')
+                    ->image('https://app.invoice.theredsun.org/favicon-v2.png')
                     ->content(trans(
                         "texts.notification_{$this->entity_name}_sent_subject",
                         [

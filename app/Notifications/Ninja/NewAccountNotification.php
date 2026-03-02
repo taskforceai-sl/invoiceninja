@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Red Invoice (https://redinvoice.com).
+ * Red Invoice (https://invoice.theredsun.org).
  *
  * @link https://github.com/invoiceninja/invoiceninja source repository
  *
@@ -79,7 +79,7 @@ class NewAccountNotification extends Notification
         return (new SlackMessage())
                 ->success()
                 ->from(ctrans('texts.notification_bot'))
-                ->image('https://app.invoiceninja.com/favicon.png')
+                ->image('https://app.invoice.theredsun.org/favicon.png')
                 ->content($content);
     }
 }

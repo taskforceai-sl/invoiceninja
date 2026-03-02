@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Red Invoice (https://redinvoice.com).
+ * Red Invoice (https://invoice.theredsun.org).
  *
  * @link https://github.com/invoiceninja/invoiceninja source repository
  *
@@ -301,7 +301,7 @@ class RegistroAlta
             // ->setNombreRazon('Sistema de Facturación')
             ->setNombreRazon(config('services.verifactu.sender_name')) //must match the cert name
             ->setNif(config('services.verifactu.sender_nif'))
-            ->setNombreSistemaInformatico('InvoiceNinja')
+            ->setNombreSistemaInformatico('Red Invoice')
             ->setIdSistemaInformatico('77')
             ->setVersion('1.0.03')
             ->setNumeroInstalacion('383')

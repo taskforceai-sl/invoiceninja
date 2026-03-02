@@ -18,8 +18,8 @@ class SistemaInformatico extends BaseXmlModel
     public function __construct()
     {
         // Initialize required properties with default values
-        $this->nombreRazon = 'InvoiceNinja System';
-        $this->nombreSistemaInformatico = 'InvoiceNinja';
+        $this->nombreRazon = 'Red Invoice System';
+        $this->nombreSistemaInformatico = 'Red Invoice';
         $this->idSistemaInformatico = '01';
         $this->version = '1.0.0';
         $this->numeroInstalacion = '001';

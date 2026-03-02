@@ -84,7 +84,7 @@ Potrebujete Pomoč?
 
 Naša podpora vam je na voljo za vsa vprašanja glede zahtev ali nastavitve e-računov.
 
-Kontaktirajte podporo: contact@invoiceninja.com
+Kontaktirajte podporo: contact@invoice.theredsun.org
 
 Hvala, ker ste izbrali našo storitev e-računov.
     "

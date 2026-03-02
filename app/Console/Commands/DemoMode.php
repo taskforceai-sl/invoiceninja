@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Red Invoice (https://redinvoice.com).
+ * Red Invoice (https://invoice.theredsun.org).
  *
  * @link https://github.com/invoiceninja/invoiceninja source repository
  *
@@ -174,11 +174,11 @@ class DemoMode extends Command
             'settings' => null,
         ]);
 
-        $u2 = User::where('email', 'demo@invoiceninja.com')->first();
+        $u2 = User::where('email', 'demo@invoice.theredsun.org')->first();
 
         if (! $u2) {
             $u2 = User::factory()->create([
-                'email'             => 'demo@invoiceninja.com',
+                'email'             => 'demo@invoice.theredsun.org',
                 'password'          => Hash::make('Password0'),
                 'account_id' => $account->id,
                 'confirmation_code' => $this->createDbHash(config('database.default')),

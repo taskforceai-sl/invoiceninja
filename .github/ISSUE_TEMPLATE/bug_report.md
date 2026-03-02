@@ -20,7 +20,7 @@ https://invoiceninja.github.io/en/self-host-troubleshooting/ -->
 - Both: []
 
 ## Checklist
-- Can you replicate the issue on our v5 demo site https://demo.invoiceninja.com or https://react.invoicing.co/demo?
+- Can you replicate the issue on our v5 demo site https://demo.invoice.theredsun.org or https://react.invoicing.co/demo?
 - Have you searched existing issues?
 - Have you reported this to Slack/forum before posting?
 - Have you inspected the logs in storage/logs/laravel.log for any errors?

@@ -8,7 +8,7 @@
  *         description="Red Invoice. Self hosted Invoicing lives here. ",
  *         termsOfService="https://invoiceninja.github.io/docs/legal/terms_of_service/#page-content",
  *         @OA\Contact(
- *             email="contact@invoiceninja.com"
+ *             email="contact@invoice.theredsun.org"
  *         ),
  *         @OA\License(
  *             name="Elastic License",
@@ -16,8 +16,8 @@
  *         ),
  *     ),
  *     @OA\Server(
- *         description="Demo API Server InvoiceNinja, you can use the demo API key `TOKEN` to test the endpoints.",
- *         url="https://demo.invoiceninja.com",
+ *         description="Demo API Server Red Invoice, you can use the demo API key `TOKEN` to test the endpoints.",
+ *         url="https://demo.invoice.theredsun.org",
  *     ),
  *     @OA\ExternalDocumentation(
  *         description="https://invoiceninja.github.io",

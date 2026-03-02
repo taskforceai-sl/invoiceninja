@@ -11,6 +11,15 @@
 @import 'components/badge';
 @import 'components/datatables';
 
+/* Red Invoice: light mode background */
+body {
+    background-color: #fcc0c0;
+}
+
+.bg-white {
+    background-color: #fcc0c0 !important;
+}
+
 .pagination {
     @apply flex items-center #{!important};
 

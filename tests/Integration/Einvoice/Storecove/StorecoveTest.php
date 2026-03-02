@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Invoice Ninja (https://invoiceninja.com).
+ * Invoice Ninja (https://invoice.theredsun.org).
  *
  * @link https://github.com/invoiceninja/invoiceninja source repository
  *
- * @copyright Copyright (c) 2021. Invoice Ninja LLC (https://invoiceninja.com)
+ * @copyright Copyright (c) 2021. Invoice Ninja LLC (https://invoice.theredsun.org)
  *
  * @license https://www.elastic.co/licensing/elastic-license
  */
@@ -1097,7 +1097,7 @@ class StorecoveTest extends TestCase
           'client_id' => $c->id,
           'first_name' => 'Contact First',
           'last_name' => 'Contact Last',
-          'email' => 'david+c1@invoiceninja.com',
+          'email' => 'david+c1@invoice.theredsun.org',
         ]);
 
         $c2 =
@@ -1140,7 +1140,7 @@ class StorecoveTest extends TestCase
           'client_id' => $c2->id,
           'first_name' => 'Contact First',
           'last_name' => 'Contact Last',
-          'email' => 'david+c2@invoiceninja.com',
+          'email' => 'david+c2@invoice.theredsun.org',
         ]);
 
 
@@ -1696,7 +1696,7 @@ class StorecoveTest extends TestCase
           'client_id' => $c->id,
           'first_name' => 'Contact First',
           'last_name' => 'Contact Last',
-          'email' => 'david+c1@invoiceninja.com',
+          'email' => 'david+c1@invoice.theredsun.org',
         ]);
 
 

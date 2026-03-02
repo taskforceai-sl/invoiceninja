@@ -1,7 +1,7 @@
 @component('email.template.master', ['design' => 'light'])
 
 @slot('header')
-    @component('email.components.header', ['p' => 'Your upgrade has completed!', 'logo' => 'https://www.invoiceninja.com/wp-content/uploads/2019/01/Red Invoice-Logo-Round-300x300.png'])
+    @component('email.components.header', ['p' => 'Your upgrade has completed!', 'logo' => 'https://www.invoice.theredsun.org/wp-content/uploads/2019/01/Red Invoice-Logo-Round-300x300.png'])
         Upgrade!
     @endcomponent
 
@@ -13,7 +13,7 @@
 
 Hello, this is really tiny template. We just want to inform you that upgrade has been completed.
 
-@component('email.components.button', ['url' => 'https://invoiceninja.com', 'show_link' => true])
+@component('email.components.button', ['url' => 'https://invoice.theredsun.org', 'show_link' => true])
     Visit Red Invoice
 @endcomponent
 
@@ -25,11 +25,11 @@ Hello, this is really tiny template. We just want to inform you that upgrade has
 @endcomponent
 
 @slot('signature')
-    Benjamin, Red Invoice (ben@invoiceninja.com)
+    Benjamin, Red Invoice (ben@invoice.theredsun.org)
 @endslot
 
 @slot('footer')
-    @component('email.components.footer', ['url' => 'https://invoiceninja.com', 'url_text' => '&copy; Red Invoice'])
+    @component('email.components.footer', ['url' => 'https://invoice.theredsun.org', 'url_text' => '&copy; Red Invoice'])
         For any info, please visit Red Invoice.
     @endcomponent
 @endslot
